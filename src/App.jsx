@@ -94,26 +94,26 @@ export default function App() {
 
       {/* Modal */}
       {modalOpen && selected && (
-        <div className="modal-overlay">
-          <div className="modal-card">
+        <div className="modal">
+          <div className="modal-content">
             <div className="modal-header">
-              <div className="logo-placeholder">🏢</div>
-              <div className="brand-info">
-                <h2>{selected.brand}</h2>
-                <p className="company-name">{selected.company}</p>
-                <p className="country">
-                  {selected.country} {selected.countryFlag || "🏳️"}
-                </p>
-              </div>
+              <h2>{selected.brand}</h2>
+              <p>{selected.company}</p>
+              <p>
+                {selected.countryEmoji} - {selected.countryCode}
+              </p>
             </div>
 
-            <div className="modal-stats">
-              <p>MCAP Sıralaması: #{selected.mcapRank || "—"}</p>
-              {/* İstersen buraya diğer istatistikleri ekleyebilirsin */}
+            <div className="modal-info">
+              <p>Category: {selected.category}</p>
+              <p>MCAP Rank: #{selected.mcapRank}</p>
+              <p>Employees: {selected.employees}</p>
+              <p>Founded: {selected.founded}</p>
+              <p>Website: {selected.website}</p>
             </div>
 
-            <button className="close-btn" onClick={() => setModalOpen(false)}>
-              Kapat
+            <button className="modal-close" onClick={() => setModalOpen(false)}>
+              Close
             </button>
           </div>
         </div>
