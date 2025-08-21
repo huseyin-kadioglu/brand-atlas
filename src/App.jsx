@@ -1,35 +1,123 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useState, useMemo } from "react";
+import BRANDS from "./brands.json";
+import Input from "./Input";
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+function normalize(s) {
+  return (s || "")
+    .toString()
+    .toLowerCase()
+    .replace(/[^a-z0-9ığüşöçâîû\s.-]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
-export default App
+function scoreMatch(query, candidate) {
+  const q = normalize(query);
+  const c = normalize(candidate);
+  if (!q || !c) return 0;
+  if (c === q) return 100;
+  if (c.startsWith(q)) return 80;
+  if (c.includes(q)) return 60;
+  const qTokens = q.split(" ");
+  const cTokens = new Set(c.split(" "));
+  const overlap = qTokens.filter((t) => cTokens.has(t)).length;
+  return overlap > 0 ? 40 + overlap * 5 : 0;
+}
+
+function useBrandSearch(query) {
+  return useMemo(() => {
+    const q = normalize(query);
+    if (!q) return [];
+    return BRANDS.map((item) => ({
+      item,
+      score: Math.max(scoreMatch(q, item.brand), scoreMatch(q, item.company)),
+    }))
+      .filter((x) => x.score > 0)
+      .sort(
+        (a, b) => b.score - a.score || a.item.brand.localeCompare(b.item.brand)
+      )
+      .slice(0, 8)
+      .map((x) => x.item);
+  }, [query]);
+}
+export default function App() {
+  const [query, setQuery] = useState("");
+  const [selected, setSelected] = useState(null);
+  const [modalOpen, setModalOpen] = useState(false);
+  const results = useBrandSearch(query);
+
+  // Modal açma
+  const handleSelect = (item) => {
+    setSelected(item);
+    setModalOpen(true);
+  };
+
+  return (
+    <div className="app">
+      <div className="card">
+        <header>
+          <h1>Marka → Şirket</h1>
+          <p>Tek input. Yaz, öğren. ✨</p>
+        </header>
+
+        <div className="input-container">
+          <Input
+            placeholder="Örn: Lexus, Omo, LC Waikiki, Galaxy…"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+          />
+          {query && results.length > 0 && (
+            <div className="suggestions">
+              {results.map((r) => (
+                <button
+                  key={r.brand + r.company}
+                  onClick={() => handleSelect(r)}
+                >
+                  <div className="brand-name">{r.brand}</div>
+                  <div className="company-name">{r.company}</div>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* Footer */}
+        <footer>
+          <p>
+            Not: Bu demo yerel bir veri kümesi ve basit bir fuzzy arama
+            kullanır.
+          </p>
+          <p>Gerçek kullanımda bir API/DB kaynağına bağlayın.</p>
+        </footer>
+      </div>
+
+      {/* Modal */}
+      {modalOpen && selected && (
+        <div className="modal-overlay">
+          <div className="modal-card">
+            <div className="modal-header">
+              <div className="logo-placeholder">🏢</div>
+              <div className="brand-info">
+                <h2>{selected.brand}</h2>
+                <p className="company-name">{selected.company}</p>
+                <p className="country">
+                  {selected.country} {selected.countryFlag || "🏳️"}
+                </p>
+              </div>
+            </div>
+
+            <div className="modal-stats">
+              <p>MCAP Sıralaması: #{selected.mcapRank || "—"}</p>
+              {/* İstersen buraya diğer istatistikleri ekleyebilirsin */}
+            </div>
+
+            <button className="close-btn" onClick={() => setModalOpen(false)}>
+              Kapat
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
