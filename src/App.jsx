@@ -2,6 +2,8 @@ import { useEffect, useState, useMemo } from "react";
 import BRANDS from "./brands.json";
 import Input from "./Input";
 import "./App.css";
+import { Footer } from "./components/Footer";
+import ReactCountryFlag from "react-country-flag";
 
 function normalize(s) {
   return (s || "")
@@ -45,6 +47,9 @@ export default function App() {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
+  const [companyModalOpen, setCompanyModalOpen] = useState(false);
+  const [selectedCompany, setSelectedCompany] = useState(null);
+
   const results = useBrandSearch(query);
 
   // Modal açma
@@ -83,36 +88,105 @@ export default function App() {
         </div>
 
         {/* Footer */}
-        <footer>
-          <p>
-            Not: Bu demo yerel bir veri kümesi ve basit bir fuzzy arama
-            kullanır.
-          </p>
-          <p>Gerçek kullanımda bir API/DB kaynağına bağlayın.</p>
-        </footer>
+        <Footer />
       </div>
 
       {/* Modal */}
       {modalOpen && selected && (
-        <div className="modal">
-          <div className="modal-content">
+        <div className="modal-backdrop">
+          <div className="modal">
             <div className="modal-header">
-              <h2>{selected.brand}</h2>
-              <p>{selected.company}</p>
-              <p>
-                {selected.countryEmoji} - {selected.countryCode}
-              </p>
+              <div className="modal-logo modal-logo-lg">
+                <img src={selected.logo} alt={selected.brand} />
+              </div>
+              <div className="modal-title">
+                <h2>
+                  <ReactCountryFlag
+                    countryCode={selected.country}
+                    svg
+                    style={{ marginRight: "5px" }}
+                  />
+                  {selected.brand}
+                </h2>
+                <p>
+                  Owned by{" "}
+                  <span
+                    className="company-link"
+                    onClick={() => {
+                      setCompanyModalOpen(true);
+                      setSelectedCompany(selected);
+                      setModalOpen(false); // marka modalını kapatıyoruz
+                    }}
+                  >
+                    {selected.company}
+                  </span>
+                </p>
+              </div>
             </div>
 
             <div className="modal-info">
-              <p>Category: {selected.category}</p>
-              <p>MCAP Rank: #{selected.mcapRank}</p>
-              <p>Employees: {selected.employees}</p>
-              <p>Founded: {selected.founded}</p>
-              <p>Website: {selected.website}</p>
+              {/* <p>🌐 Website: {selected.website}</p>
+              <p>👥 Employees: {selected.employees}</p>
+              <p>🏛 Founded: {selected.founded}</p>
+              <p>📊 MCAP Rank: #{selected.mcapRank}</p> */}
+              <p>📂 Category: {selected.category}</p>
             </div>
 
             <button className="modal-close" onClick={() => setModalOpen(false)}>
+              Close
+            </button>
+          </div>
+        </div>
+      )}
+
+      {companyModalOpen && selectedCompany && (
+        <div className="modal-backdrop">
+          <div className="modal">
+            <div className="modal-header">
+              <div className="modal-logo modal-logo-lg">
+                <img
+                  src={selectedCompany.companyLogo || selectedCompany.logo}
+                  alt={selectedCompany.company}
+                />
+              </div>
+              <div className="modal-title">
+                <h2>
+                  <ReactCountryFlag
+                    countryCode={selectedCompany.country}
+                    svg
+                    style={{ marginRight: "5px" }}
+                  />
+                  {selectedCompany.company}
+                </h2>
+              </div>
+            </div>
+
+            <div className="modal-info">
+              {/* <p>🌐 Website: {selectedCompany.website}</p>
+              <p>👥 Employees: {selectedCompany.employees}</p>
+              <p>🏛 Founded: {selectedCompany.founded}</p>
+              <p>📊 MCAP Rank: #{selectedCompany.mcapRank}</p> */}
+              <p>📂 Category: {selectedCompany.category}</p>
+            </div>
+
+            <h3 className="section-title">Owned Brands</h3>
+            <div className="owned-brands">
+              {BRANDS.filter((b) => b.company === selectedCompany.company).map(
+                (brand) => (
+                  <div key={brand.brand} className="owned-brand-item">
+                    <div className="owned-brand-logo">
+                      <img src={brand.logo} alt={brand.brand} />
+                    </div>
+                    <p>{brand.brand}</p>
+                  </div>
+                )
+              )}
+            </div>
+
+            <button
+              className="modal-close"
+              onClick={() => setCompanyModalOpen(false)}
+            >
               Close
             </button>
           </div>
