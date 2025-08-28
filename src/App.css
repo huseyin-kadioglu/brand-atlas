@@ -261,6 +261,23 @@ footer {
   flex-direction: column;
   gap: 8px;
   margin-top: 12px;
+
+  
+  max-height: 300px;   /* yüksekliği sınırla */
+  overflow-y: auto;    /* dikey scroll ekle */
+  padding-right: 6px;  /* scroll bar üstüne yazıları sıkıştırmasın diye */
+
+}
+
+.owned-brands::-webkit-scrollbar {
+  width: 6px;
+}
+.owned-brands::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+.owned-brands::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .owned-brand-item {
