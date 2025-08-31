@@ -97,7 +97,13 @@ export default function App() {
           <div className="modal">
             <div className="modal-header">
               <div className="modal-logo modal-logo-lg">
-                <img src={selected.logo} alt={selected.brand} />
+                <img
+                  src={selected.logo}
+                  alt={selected.brand}
+                  onError={(e) =>
+                    (e.currentTarget.src = "/logo/default-company.svg")
+                  }
+                />
               </div>
               <div className="modal-title">
                 <h2>
@@ -147,6 +153,10 @@ export default function App() {
                 <img
                   src={selectedCompany.companyLogo || selectedCompany.logo}
                   alt={selectedCompany.company}
+                  loading="lazy"
+                  onError={(e) =>
+                    (e.currentTarget.src = "/logo/default-company.svg")
+                  }
                 />
               </div>
               <div className="modal-title">
@@ -175,7 +185,14 @@ export default function App() {
                 (brand) => (
                   <div key={brand.brand} className="owned-brand-item">
                     <div className="owned-brand-logo">
-                      <img src={brand.logo} alt={brand.brand} />
+                      <img
+                        src={brand.logo}
+                        alt={brand.brand}
+                        loading="lazy"
+                        onError={(e) =>
+                          (e.currentTarget.src = "/logo/default-company.svg")
+                        }
+                      />
                     </div>
                     <p>{brand.brand}</p>
                   </div>
