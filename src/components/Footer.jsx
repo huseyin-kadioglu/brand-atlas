@@ -3,9 +3,9 @@ export const Footer = () => {
     <>
       <footer>
         <p>
-          Not: Bu demo yerel bir veri kümesi ve basit bir fuzzy arama kullanır.
+          🚧 Site şu anda bakım aşamasındadır. Kullanım sırasında küçük hatalar
+          olabilir.
         </p>
-        <p>Gerçek kullanımda bir API/DB kaynağına bağlayın.</p>
       </footer>
     </>
   );

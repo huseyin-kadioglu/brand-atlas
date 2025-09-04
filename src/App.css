@@ -26,7 +26,6 @@ body {
   max-width: 600px; /* ama maksimum 600px olsun */
   margin: 0 auto; /* ortala */
 }
-
 /* Header */
 header {
   text-align: center;
@@ -261,11 +260,9 @@ footer {
   gap: 8px;
   margin-top: 12px;
 
-  
-  max-height: 300px;   /* yüksekliği sınırla */
-  overflow-y: auto;    /* dikey scroll ekle */
-  padding-right: 6px;  /* scroll bar üstüne yazıları sıkıştırmasın diye */
-
+  max-height: 300px; /* yüksekliği sınırla */
+  overflow-y: auto; /* dikey scroll ekle */
+  padding-right: 6px; /* scroll bar üstüne yazıları sıkıştırmasın diye */
 }
 
 .owned-brands::-webkit-scrollbar {

@@ -463,20 +463,6 @@
     "website": "https://www.bim.com.tr"
   },
   {
-    "brand": "Şok",
-    "company": "Şok Marketler Ticaret A.Ş.",
-    "country": "TR",
-    "countryCode": "TR",
-    "countryEmoji": "🇹🇷",
-    "category": "Retail",
-    "logo": "",
-    "companyLogo": "",
-    "mcapRank": 130,
-    "employees": 35000,
-    "founded": 1995,
-    "website": "https://www.sokmarket.com.tr"
-  },
-  {
     "brand": "A101",
     "company": "A101 Yeni Mağazacılık A.Ş.",
     "country": "TR",
@@ -1535,21 +1521,6 @@
     "category": "Tekstil",
     "logo": "/logo/loft.svg",
     "companyLogo": "/logo/eroglu.svg",
-    "mcapRank": null,
-    "employees": 4000,
-    "founded": 2000,
-    "website": "https://www.teknosa.com"
-  },
-
-  {
-    "brand": "Şok",
-    "company": "Yıldız Holding",
-    "country": "TR",
-    "countryCode": "TR",
-    "countryEmoji": "tr",
-    "category": "Tekstil",
-    "logo": "/logo/sok.svg",
-    "companyLogo": "/logo/yildizholding.svg",
     "mcapRank": null,
     "employees": 4000,
     "founded": 2000,
