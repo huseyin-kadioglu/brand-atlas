@@ -1,3 +1,5 @@
+import FAQ from "../Faq";
+
 export const Footer = () => {
   return (
     <>
@@ -7,6 +9,7 @@ export const Footer = () => {
           olabilir.
         </p>
       </footer>
+      <FAQ />
     </>
   );
 };
