@@ -447,7 +447,6 @@
     "founded": 1913,
     "website": "https://www.astonmartin.com"
   },
-
   {
     "brand": "BİM",
     "company": "BİM Birleşik Mağazalar A.Ş.",
@@ -2487,6 +2486,48 @@
     "category": "Technology",
     "logo": "/logo/pwcconsulting.svg",
     "companyLogo": "/logo/ibm.svg",
+    "mcapRank": null,
+    "employees": 4000,
+    "founded": 2000,
+    "website": "https://www.teknosa.com"
+  },
+  {
+    "brand": "SCHNEIDER ELECTRIC SE",
+    "company": "SCHNEIDER ELECTRIC SE",
+    "country": "FR",
+    "countryCode": "FR",
+    "countryEmoji": "fr",
+    "category": "Technology",
+    "logo": "/logo/scneider.svg",
+    "companyLogo": "/logo/scneider.svg",
+    "mcapRank": null,
+    "employees": 4000,
+    "founded": 2000,
+    "website": "https://www.teknosa.com"
+  },
+  {
+    "brand": "Total Energies",
+    "company": "Total Energies",
+    "country": "FR",
+    "countryCode": "FR",
+    "countryEmoji": "fr",
+    "category": "Technology",
+    "logo": "/logo/totalenergy.svg",
+    "companyLogo": "/logo/totalenergy.svg",
+    "mcapRank": null,
+    "employees": 4000,
+    "founded": 2000,
+    "website": "https://www.teknosa.com"
+  },
+  {
+    "brand": "Airbus",
+    "company": "Airbus",
+    "country": "FR",
+    "countryCode": "FR",
+    "countryEmoji": "fr",
+    "category": "Technology",
+    "logo": "/logo/airbus.svg",
+    "companyLogo": "/logo/airbus.svg",
     "mcapRank": null,
     "employees": 4000,
     "founded": 2000,
