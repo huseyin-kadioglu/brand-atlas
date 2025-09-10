@@ -153,13 +153,13 @@ footer {
 
 .footer-links a {
   margin: 0 8px;
-  color: #333;          /* gri ton */
+  color: #333; /* gri ton */
   text-decoration: none; /* altı çizgiyi kaldır */
   font-weight: 500;
 }
 
 .footer-links a:hover {
-  color: #969696;       /* hover’da mavi */
+  color: #969696; /* hover’da mavi */
   text-decoration: underline;
 }
 /* Backdrop */
@@ -258,21 +258,22 @@ footer {
   color: #fff;
 }
 
-
-
 .modal-close {
   position: absolute;
-  top: 12px;
-  right: 12px;
+  top: 10px;
+  right: 10px;
   background: none;
   border: none;
   color: #aaa;
-  font-size: 20px;
+  font-size: 16px; /* 20 yerine 16 */
+  line-height: 1;
   cursor: pointer;
-  transition: color 0.2s;
+  transition: color 0.2s, transform 0.2s;
 }
+
 .modal-close:hover {
   color: #fff;
+  transform: scale(1.1); /* hover’da ufak büyüsün */
 }
 
 .section-title {
@@ -360,16 +361,14 @@ header {
   padding-top: 20px;
   border-top: 1px solid #333;
   text-align: center;
-}
-
-.faq-title {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 12px;
+  width: 360px;      /* sabit genişlik */
+  max-width: 90%;    /* küçük ekranlarda sığsın */
+  margin-left: auto;  /* ortalama */
+  margin-right: auto; /* ortalama */
 }
 
 .faq-list {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: 6px;
   text-align: left;
@@ -380,7 +379,7 @@ header {
   border-radius: 10px;
   background-color: #1a1a1a;
   overflow: hidden;
-  width: 360px; /* sabit genişlik */
+  width: 100%; /* faq container genişliğine uysun */
 }
 
 /* Küçük ekranlarda %100 olsun */

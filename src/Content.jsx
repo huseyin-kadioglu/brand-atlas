@@ -74,10 +74,7 @@ export default function Content() {
         {query && results.length > 0 && (
           <div className="suggestions">
             {results.map((r) => (
-              <button
-                key={r.brand + r.company}
-                onClick={() => handleSelect(r)}
-              >
+              <button key={r.brand + r.company} onClick={() => handleSelect(r)}>
                 <div className="brand-name">{r.brand}</div>
                 <div className="company-name">{r.company}</div>
               </button>
@@ -130,7 +127,7 @@ export default function Content() {
             </div>
 
             <button className="modal-close" onClick={() => setModalOpen(false)}>
-              Close
+              ×
             </button>
           </div>
         </div>
@@ -192,7 +189,7 @@ export default function Content() {
               className="modal-close"
               onClick={() => setCompanyModalOpen(false)}
             >
-              Close
+              ×
             </button>
           </div>
         </div>
