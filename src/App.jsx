@@ -62,7 +62,10 @@ export default function App() {
     <div className="app">
       <div className="card">
         <header>
-          <h1>Marka → Şirket</h1>
+          <h1>
+            Marka → Şirket
+            <span className="beta-tag">BETA</span>
+          </h1>
           <p>Tek input. Yaz, öğren. ✨</p>
         </header>
 
@@ -89,7 +92,6 @@ export default function App() {
 
         {/* Footer */}
         <Footer />
-        
       </div>
 
       {/* Modal */}

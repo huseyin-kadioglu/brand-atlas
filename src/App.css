@@ -299,6 +299,30 @@ footer {
   object-fit: contain;
 }
 
+header {
+  position: relative; /* beta için referans */
+  text-align: center;
+}
+
+.header-title {
+  font-size: 28px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.beta-tag {
+  position: absolute;
+  top: 0; /* H1’in üstüne hizala */
+  transform: translateX(60%) translateY(-50%);
+  font-size: 10px;
+  font-weight: bold;
+  color: #ffdd57;
+  background-color: #333;
+  border: 1px solid #ffdd57;
+  border-radius: 3px;
+  padding: 1px 4px;
+  text-transform: uppercase;
+}
+
 /* FAQ Bölümü */
 /* FAQ */
 .faq {
@@ -326,7 +350,7 @@ footer {
   border-radius: 10px;
   background-color: #1a1a1a;
   overflow: hidden;
-  width: 360px;   /* sabit genişlik */
+  width: 360px; /* sabit genişlik */
 }
 
 /* Küçük ekranlarda %100 olsun */
