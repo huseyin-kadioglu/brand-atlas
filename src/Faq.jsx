@@ -4,7 +4,7 @@ function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
 
 const faqs = [
-  { q: "Lexus markası kimin?", a: "Lexus, Toyota Motor Corporation’a aittir." },
+  { q: "Temu markası kimin?", a: "Temu, PDD Holdings'e ait, Çin menşeili bir firmadır." },
   { q: "Omo markası kimin?", a: "Omo, Unilever’e aittir." },
   { q: "LC Waikiki markası kimin?", a: "LC Waikiki, Tema Mağazacılık Hizmetleri A.Ş.’ye aittir." },
   // Türkiye'de popüler markalar

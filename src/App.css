@@ -139,6 +139,29 @@ footer {
   font-size: 12px;
   margin-top: 32px;
 }
+
+.footer {
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+  margin-top: 32px;
+}
+
+.footer-links {
+  margin-top: 8px;
+}
+
+.footer-links a {
+  margin: 0 8px;
+  color: #333;          /* gri ton */
+  text-decoration: none; /* altı çizgiyi kaldır */
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  color: #969696;       /* hover’da mavi */
+  text-decoration: underline;
+}
 /* Backdrop */
 .modal-backdrop {
   position: fixed;
@@ -235,14 +258,21 @@ footer {
   color: #fff;
 }
 
+
+
 .modal-close {
-  margin-top: 16px;
-  padding: 8px 12px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
   border: none;
-  border-radius: 8px;
-  background-color: #333;
-  color: #fff;
+  color: #aaa;
+  font-size: 20px;
   cursor: pointer;
+  transition: color 0.2s;
+}
+.modal-close:hover {
+  color: #fff;
 }
 
 .section-title {
