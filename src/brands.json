@@ -924,6 +924,20 @@
     "website": "https://www.arcelik.com.tr"
   },
   {
+    "brand": "Migros",
+    "company": "Koç Holding",
+    "country": "TR",
+    "countryCode": "TR",
+    "countryEmoji": "🇹🇷",
+    "category": "Durable Goods",
+    "logo": "/logo/migros.svg",
+    "companyLogo": "/logo/koc.svg",
+    "mcapRank": null,
+    "employees": 30000,
+    "founded": 1955,
+    "website": "https://www.arcelik.com.tr"
+  },
+  {
     "brand": "Yapı ve Kredi Bankası",
     "company": "Koç Holding",
     "country": "TR",
