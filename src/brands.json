@@ -196,6 +196,17 @@
     "website": "https://www.renaultgroup.com"
   },
   {
+    "brand": "Societe Bic",
+    "company": "Societe Bic",
+    "country": "FR",
+    "countryCode": "FR",
+    "countryEmoji": "🇫🇷",
+    "category": "Automotive",
+    "logo": "/logo/bic.svg",
+    "companyLogo": "/logo/bic.svg"
+  },
+
+  {
     "brand": "Peugeot",
     "company": "Stellantis N.V.",
     "country": "FR",
@@ -474,6 +485,45 @@
     "employees": 37000,
     "founded": 2008,
     "website": "https://www.a101.com.tr"
+  },
+  {
+    "brand": "Pidem",
+    "company": "HD Holding",
+    "country": "TR",
+    "countryCode": "TR",
+    "countryEmoji": "🇹🇷",
+    "category": "Retail",
+    "logo": "/logo/pidem.svg",
+    "companyLogo": "/logo/hd.svg",
+    "mcapRank": 125,
+    "employees": 37000,
+    "founded": 2008
+  },
+  {
+    "brand": "HD İskender",
+    "company": "HD Holding",
+    "country": "TR",
+    "countryCode": "TR",
+    "countryEmoji": "🇹🇷",
+    "category": "Retail",
+    "logo": "/logo/hdiskender.svg",
+    "companyLogo": "/logo/hd.svg",
+    "mcapRank": 125,
+    "employees": 37000,
+    "founded": 2008
+  },
+  {
+    "brand": "Makarnam",
+    "company": "HD Holding",
+    "country": "TR",
+    "countryCode": "TR",
+    "countryEmoji": "🇹🇷",
+    "category": "Retail",
+    "logo": "/logo/makarnam.svg",
+    "companyLogo": "/logo/hd.svg",
+    "mcapRank": 125,
+    "employees": 37000,
+    "founded": 2008
   },
   {
     "brand": "Eti",
