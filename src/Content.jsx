@@ -1,7 +1,9 @@
-import { useState, useMemo } from "react";
-import BRANDS from "./brands.json";
+import { useState, useMemo, useEffect, lazy, Suspense } from "react";
 import Input from "./Input";
-import ReactCountryFlag from "react-country-flag";
+import BRANDS_RAW from "./brands.json";
+
+const BrandModal = lazy(() => import("./components/BrandModal"));
+const CompanyModal = lazy(() => import("./components/CompanyModal"));
 
 function normalize(s) {
   return (s || "")
@@ -13,8 +15,8 @@ function normalize(s) {
 }
 
 function scoreMatch(query, candidate) {
-  const q = normalize(query);
-  const c = normalize(candidate);
+  const q = query;
+  const c = candidate;
   if (!q || !c) return 0;
   if (c === q) return 100;
   if (c.startsWith(q)) return 80;
@@ -25,13 +27,32 @@ function scoreMatch(query, candidate) {
   return overlap > 0 ? 40 + overlap * 5 : 0;
 }
 
+function useDebounce(value, delay = 300) {
+  const [debounced, setDebounced] = useState(value);
+  useEffect(() => {
+    const handler = setTimeout(() => setDebounced(value), delay);
+    return () => clearTimeout(handler);
+  }, [value, delay]);
+  return debounced;
+}
+
+// --- Veriyi normalize ederek bir kez hazırlıyoruz ---
+const NORMALIZED_BRANDS = BRANDS_RAW.map((b) => ({
+  ...b,
+  _normBrand: normalize(b.brand),
+  _normCompany: normalize(b.company),
+}));
+
 function useBrandSearch(query) {
   return useMemo(() => {
     const q = normalize(query);
     if (!q) return [];
-    return BRANDS.map((item) => ({
+    return NORMALIZED_BRANDS.map((item) => ({
       item,
-      score: Math.max(scoreMatch(q, item.brand), scoreMatch(q, item.company)),
+      score: Math.max(
+        scoreMatch(q, item._normBrand),
+        scoreMatch(q, item._normCompany)
+      ),
     }))
       .filter((x) => x.score > 0)
       .sort(
@@ -45,15 +66,15 @@ function useBrandSearch(query) {
 export default function Content() {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState(null);
-  const [modalOpen, setModalOpen] = useState(false);
-  const [companyModalOpen, setCompanyModalOpen] = useState(false);
-  const [selectedCompany, setSelectedCompany] = useState(null);
+  const [company, setCompany] = useState(null);
 
-  const results = useBrandSearch(query);
+  const debouncedQuery = useDebounce(query);
+  const results = useBrandSearch(debouncedQuery);
 
   const handleSelect = (item) => {
     setSelected(item);
-    setModalOpen(true);
+    setCompanyModalOpen(false); // olası çakışmayı önler
+    setTimeout(() => setModalOpen(true), 0); // render sonrası açılmasını sağlar
   };
 
   return (
@@ -71,7 +92,7 @@ export default function Content() {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        {query && results.length > 0 && (
+        {debouncedQuery && results.length > 0 && (
           <div className="suggestions">
             {results.map((r) => (
               <button key={r.brand + r.company} onClick={() => handleSelect(r)}>
@@ -84,116 +105,25 @@ export default function Content() {
       </div>
 
       {/* Marka Modal */}
-      {modalOpen && selected && (
-        <div className="modal-backdrop">
-          <div className="modal">
-            <div className="modal-header">
-              <div className="modal-logo modal-logo-lg">
-                <img
-                  src={selected.logo}
-                  alt={selected.brand}
-                  onError={(e) =>
-                    (e.currentTarget.src = "/logo/default-company.svg")
-                  }
-                />
-              </div>
-              <div className="modal-title">
-                <h2>
-                  <ReactCountryFlag
-                    countryCode={selected.country}
-                    svg
-                    style={{ marginRight: "5px" }}
-                  />
-                  {selected.brand}
-                </h2>
-                <p>
-                  Owned by{" "}
-                  <span
-                    className="company-link"
-                    onClick={() => {
-                      setCompanyModalOpen(true);
-                      setSelectedCompany(selected);
-                      setModalOpen(false);
-                    }}
-                  >
-                    {selected.company}
-                  </span>
-                </p>
-              </div>
-            </div>
-
-            <div className="modal-info">
-              <p>📂 Category: {selected.category}</p>
-            </div>
-
-            <button className="modal-close" onClick={() => setModalOpen(false)}>
-              ×
-            </button>
-          </div>
-        </div>
-      )}
+      <Suspense fallback={null}>
+        {selected && (
+          <BrandModal
+            selected={selected}
+            onClose={() => setSelected(null)}
+            onCompanyOpen={(companyData) => {
+              setSelected(null);
+              setCompany(companyData);
+            }}
+          />
+        )}
+      </Suspense>
 
       {/* Şirket Modal */}
-      {companyModalOpen && selectedCompany && (
-        <div className="modal-backdrop">
-          <div className="modal">
-            <div className="modal-header">
-              <div className="modal-logo modal-logo-lg">
-                <img
-                  src={selectedCompany.companyLogo || selectedCompany.logo}
-                  alt={selectedCompany.company}
-                  loading="lazy"
-                  onError={(e) =>
-                    (e.currentTarget.src = "/logo/default-company.svg")
-                  }
-                />
-              </div>
-              <div className="modal-title">
-                <h2>
-                  <ReactCountryFlag
-                    countryCode={selectedCompany.country}
-                    svg
-                    style={{ marginRight: "5px" }}
-                  />
-                  {selectedCompany.company}
-                </h2>
-              </div>
-            </div>
-
-            <div className="modal-info">
-              <p>📂 Category: {selectedCompany.category}</p>
-            </div>
-
-            <h3 className="section-title">Owned Brands</h3>
-            <div className="owned-brands">
-              {BRANDS.filter((b) => b.company === selectedCompany.company).map(
-                (brand) => (
-                  <div key={brand.brand} className="owned-brand-item">
-                    <div className="owned-brand-logo">
-                      <img
-                        src={brand.logo}
-                        alt={brand.brand}
-                        loading="lazy"
-                        onError={(e) =>
-                          (e.currentTarget.src = "/logo/default-company.svg")
-                        }
-                      />
-                    </div>
-                    <p>{brand.brand}</p>
-                  </div>
-                )
-              )}
-            </div>
-
-            <button
-              className="modal-close"
-              onClick={() => setCompanyModalOpen(false)}
-            >
-              ×
-            </button>
-          </div>
-        </div>
-      )}
+      <Suspense fallback={null}>
+        {company && (
+          <CompanyModal company={company} onClose={() => setCompany(null)} />
+        )}
+      </Suspense>
     </div>
   );
 }
