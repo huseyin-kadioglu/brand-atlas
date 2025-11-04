@@ -1,66 +1,93 @@
 import ReactCountryFlag from "react-country-flag";
 import BRANDS from "./../brands.json";
+import "./CompanyModal.css";
 
 export default function CompanyModal({ company, onClose }) {
   if (!company) return null;
-  const ownedBrands = BRANDS.filter(
-    (b) => b.company === company.company
-  );
+
+  const ownedBrands = BRANDS.filter((b) => b.company === company.company);
 
   return (
-    <div className="modal-backdrop">
-      <div className="modal">
+    <div className="modal-backdrop" onClick={onClose}>
+      <div className="modal" onClick={(e) => e.stopPropagation()}>
+        <button className="modal-close" onClick={onClose}>×</button>
+
         <div className="modal-header">
-          <div className="modal-logo modal-logo-lg">
+          <div className="brand-logo">
             <img
               src={company.companyLogo || company.logo}
               alt={company.company}
               loading="lazy"
-              decoding="async"
-              onError={(e) =>
-                (e.currentTarget.src = "/logo/default-company.svg")
-              }
+              onError={(e) => (e.currentTarget.src = "/logo/default-company.svg")}
             />
           </div>
-          <div className="modal-title">
+
+          <div className="brand-header-text">
             <h2>
+              {company.company}
               <ReactCountryFlag
                 countryCode={company.country}
                 svg
-                style={{ marginRight: "5px" }}
+                style={{ marginLeft: "8px", verticalAlign: "middle" }}
               />
-              {company.company}
             </h2>
+            {company.founded && (
+              <p className="brand-company">
+                Kuruluş: {company.founded}
+              </p>
+            )}
           </div>
         </div>
 
-        <div className="modal-info">
-          <p>📂 Category: {company.category}</p>
+        <div className="modal-content">
+          {company.description && (
+            <p className="modal-row">🧾 {company.description}</p>
+          )}
+          {company.headquarters && (
+            <p className="modal-row">🏢 Merkez: {company.headquarters}</p>
+          )}
+          {company.employees && (
+            <p className="modal-row">👥 Çalışan: {company.employees.toLocaleString()}</p>
+          )}
+          {company.website && (
+            <p className="modal-row">
+              🌐{" "}
+              <a href={company.website} target="_blank" rel="noreferrer">
+                {company.website.replace(/^https?:\/\//, "")}
+              </a>
+            </p>
+          )}
         </div>
 
-        <h3 className="section-title">Owned Brands</h3>
-        <div className="owned-brands">
-          {ownedBrands.map((brand) => (
-            <div key={brand.brand} className="owned-brand-item">
-              <div className="owned-brand-logo">
-                <img
-                  src={brand.logo}
-                  alt={brand.brand}
-                  loading="lazy"
-                  decoding="async"
-                  onError={(e) =>
-                    (e.currentTarget.src = "/logo/default-company.svg")
-                  }
-                />
-              </div>
-              <p>{brand.brand}</p>
+        {ownedBrands.length > 0 && (
+          <>
+            <h3 className="section-title">Sahip Olduğu Markalar</h3>
+            <div className="owned-brands">
+              {ownedBrands.map((brand) => (
+                <div key={brand.brand} className="owned-brand-item">
+                  <div className="owned-brand-logo">
+                    <img
+                      src={brand.logo}
+                      alt={brand.brand}
+                      onError={(e) =>
+                        (e.currentTarget.src = "/logo/default-company.svg")
+                      }
+                    />
+                  </div>
+                  <p>{brand.brand}</p>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </>
+        )}
 
-        <button className="modal-close" onClick={onClose}>
-          ×
-        </button>
+        <div className="modal-footer">
+          <p>
+            <small>
+              Veriler son güncelleme: <strong>Kasım 2025</strong>
+            </small>
+          </p>
+        </div>
       </div>
     </div>
   );

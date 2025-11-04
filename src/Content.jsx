@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect, lazy, Suspense } from "react";
 import Input from "./Input";
 import BRANDS_RAW from "./brands.json";
+import DevBadge from "./components/DevBadge";
 
 const BrandModal = lazy(() => import("./components/BrandModal"));
 const CompanyModal = lazy(() => import("./components/CompanyModal"));
@@ -124,6 +125,7 @@ export default function Content() {
           <CompanyModal company={company} onClose={() => setCompany(null)} />
         )}
       </Suspense>
+      <DevBadge />
     </div>
   );
 }
