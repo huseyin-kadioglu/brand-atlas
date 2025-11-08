@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect, lazy, Suspense } from "react";
 import Input from "./Input";
-import BRANDS_RAW from "./brands.json";
 import DevBadge from "./components/DevBadge";
+import Papa from "papaparse"; // npm install papaparse
 
 const BrandModal = lazy(() => import("./components/BrandModal"));
 const CompanyModal = lazy(() => import("./components/CompanyModal"));
@@ -37,31 +37,60 @@ function useDebounce(value, delay = 300) {
   return debounced;
 }
 
-// --- Veriyi normalize ederek bir kez hazırlıyoruz ---
-const NORMALIZED_BRANDS = BRANDS_RAW.map((b) => ({
-  ...b,
-  _normBrand: normalize(b.brand),
-  _normCompany: normalize(b.company),
-}));
+// 🔹 Google Sheets'ten CSV veriyi çekiyoruz
+function useBrandsData() {
+  const [brands, setBrands] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-function useBrandSearch(query) {
+  useEffect(() => {
+    const SHEET_URL = "https://docs.google.com/spreadsheets/d/18BH8LXuxivmk-IRyu_-S-CRVHWMqGcKjnodM8Jc1JTE/gviz/tq?tqx=out:csv";
+
+    fetch(SHEET_URL)
+      .then((res) => res.text())
+      .then((csvText) => {
+        const parsed = Papa.parse(csvText, { header: true }).data;
+        const normalized = parsed
+          .filter((b) => b.brand && b.company)
+          .map((b) => ({
+            ...b,
+            mcapRank: Number(b.mcapRank) || null,
+            employees: Number(b.employees) || null,
+            founded: Number(b.founded) || null,
+            _normBrand: normalize(b.brand),
+            _normCompany: normalize(b.company),
+          }));
+        setBrands(normalized);
+      })
+      .catch((err) => {
+        console.error("Veri çekilirken hata:", err);
+        setError(err);
+      })
+      .finally(() => setLoading(false));
+  }, []);
+
+  return { brands, loading, error };
+}
+
+function useBrandSearch(query, brands) {
   return useMemo(() => {
     const q = normalize(query);
     if (!q) return [];
-    return NORMALIZED_BRANDS.map((item) => ({
-      item,
-      score: Math.max(
-        scoreMatch(q, item._normBrand),
-        scoreMatch(q, item._normCompany)
-      ),
-    }))
+    return brands
+      .map((item) => ({
+        item,
+        score: Math.max(
+          scoreMatch(q, item._normBrand),
+          scoreMatch(q, item._normCompany)
+        ),
+      }))
       .filter((x) => x.score > 0)
       .sort(
         (a, b) => b.score - a.score || a.item.brand.localeCompare(b.item.brand)
       )
       .slice(0, 8)
       .map((x) => x.item);
-  }, [query]);
+  }, [query, brands]);
 }
 
 export default function Content() {
@@ -70,13 +99,27 @@ export default function Content() {
   const [company, setCompany] = useState(null);
 
   const debouncedQuery = useDebounce(query);
-  const results = useBrandSearch(debouncedQuery);
+  const { brands, loading, error } = useBrandsData();
+  const results = useBrandSearch(debouncedQuery, brands);
 
   const handleSelect = (item) => {
     setSelected(item);
-    setCompanyModalOpen(false); // olası çakışmayı önler
-    setTimeout(() => setModalOpen(true), 0); // render sonrası açılmasını sağlar
+    setCompany(null);
   };
+
+  if (loading)
+    return (
+      <div className="card">
+        <p>Veriler yükleniyor...</p>
+      </div>
+    );
+
+  if (error)
+    return (
+      <div className="card">
+        <p>Veri alınamadı 😞</p>
+      </div>
+    );
 
   return (
     <div className="card">
@@ -125,6 +168,7 @@ export default function Content() {
           <CompanyModal company={company} onClose={() => setCompany(null)} />
         )}
       </Suspense>
+
       <DevBadge />
     </div>
   );
