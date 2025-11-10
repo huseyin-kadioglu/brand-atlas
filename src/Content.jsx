@@ -167,7 +167,11 @@ export default function Content() {
       {/* Şirket Modal */}
       <Suspense fallback={null}>
         {company && (
-          <CompanyModal company={company} onClose={() => setCompany(null)} />
+          <CompanyModal
+            company={company}
+            brands={brands}
+            onClose={() => setCompany(null)}
+          />
         )}
       </Suspense>
 

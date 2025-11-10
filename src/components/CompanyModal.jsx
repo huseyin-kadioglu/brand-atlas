@@ -1,16 +1,21 @@
+import React from "react";
 import ReactCountryFlag from "react-country-flag";
-import BRANDS from "./../brands.json";
 import "./CompanyModal.css";
 
-export default function CompanyModal({ company, onClose }) {
+export default function CompanyModal({ company, brands, onClose }) {
   if (!company) return null;
 
-  const ownedBrands = BRANDS.filter((b) => b.company === company.company);
+  // Artık JSON'dan değil, parent component'ten gelen brands listesinden filtreliyoruz
+  const ownedBrands = (brands || []).filter(
+    (b) => b.company === company.company
+  );
 
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal" onClick={(e) => e.stopPropagation()}>
-        <button className="modal-close" onClick={onClose}>×</button>
+        <button className="modal-close" onClick={onClose}>
+          ×
+        </button>
 
         <div className="modal-header">
           <div className="brand-logo">
@@ -18,7 +23,9 @@ export default function CompanyModal({ company, onClose }) {
               src={company.companyLogo || company.logo}
               alt={company.company}
               loading="lazy"
-              onError={(e) => (e.currentTarget.src = "/logo/default-company.svg")}
+              onError={(e) =>
+                (e.currentTarget.src = "/logo/default-company.svg")
+              }
             />
           </div>
 
@@ -32,9 +39,7 @@ export default function CompanyModal({ company, onClose }) {
               />
             </h2>
             {company.founded && (
-              <p className="brand-company">
-                Kuruluş: {company.founded}
-              </p>
+              <p className="brand-company">Kuruluş: {company.founded}</p>
             )}
           </div>
         </div>
@@ -47,7 +52,9 @@ export default function CompanyModal({ company, onClose }) {
             <p className="modal-row">🏢 Merkez: {company.headquarters}</p>
           )}
           {company.employees && (
-            <p className="modal-row">👥 Çalışan: {company.employees.toLocaleString()}</p>
+            <p className="modal-row">
+              👥 Çalışan: {company.employees.toLocaleString()}
+            </p>
           )}
           {company.website && (
             <p className="modal-row">
