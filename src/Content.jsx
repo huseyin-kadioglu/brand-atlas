@@ -10,7 +10,8 @@ function normalize(s) {
   return (s || "")
     .toString()
     .toLowerCase()
-    .replace(/[^a-z0-9ığüşöçâîû\s.-]/g, "")
+    .normalize("NFKD") // harf varyasyonlarını düzelt
+    .replace(/[^\p{L}\p{N}\s.-]/gu, "") // tüm dillerin harflerini koru
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -44,7 +45,8 @@ function useBrandsData() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const SHEET_URL = "https://docs.google.com/spreadsheets/d/18BH8LXuxivmk-IRyu_-S-CRVHWMqGcKjnodM8Jc1JTE/gviz/tq?tqx=out:csv";
+    const SHEET_URL =
+      "https://docs.google.com/spreadsheets/d/18BH8LXuxivmk-IRyu_-S-CRVHWMqGcKjnodM8Jc1JTE/gviz/tq?tqx=out:csv";
 
     fetch(SHEET_URL)
       .then((res) => res.text())
