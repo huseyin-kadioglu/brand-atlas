@@ -350,3 +350,69 @@ footer {
     font-size: 14px;
   }
 }
+
+/* === YENİ ÖZELLİKLER === */
+
+/* Marka sayısı göstergesi */
+.brand-count {
+  display: block;
+  margin-top: 4px;
+  color: #888;
+  font-size: 0.8rem;
+}
+
+/* "Sonuç bulunamadı" mesajı */
+.no-results {
+  margin-top: 10px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* Son arananlar bölümü */
+.recent-searches {
+  margin-top: 1rem;
+  background-color: #141414;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.recent-searches p {
+  margin: 0 0 8px 0;
+  font-size: 0.85rem;
+  color: #bbb;
+}
+
+.recent-searches .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.recent-searches .tags button {
+  background-color: #1e1e1e;
+  color: #ddd;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.recent-searches .tags button:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+/* DevBadge ve footer uyumu */
+footer p {
+  color: #999;
+  font-size: 0.75rem;
+  margin-top: 4px;
+}

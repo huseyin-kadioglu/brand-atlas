@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect, lazy, Suspense } from "react";
 import Input from "./Input";
 import DevBadge from "./components/DevBadge";
-import Papa from "papaparse"; // npm install papaparse
+import Papa from "papaparse";
 
 const BrandModal = lazy(() => import("./components/BrandModal"));
 const CompanyModal = lazy(() => import("./components/CompanyModal"));
@@ -10,8 +10,8 @@ function normalize(s) {
   return (s || "")
     .toString()
     .toLowerCase()
-    .normalize("NFKD") // harf varyasyonlarını düzelt
-    .replace(/[^\p{L}\p{N}\s.-]/gu, "") // tüm dillerin harflerini koru
+    .normalize("NFKD")
+    .replace(/[^\p{L}\p{N}\s.-]/gu, "")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -38,7 +38,6 @@ function useDebounce(value, delay = 300) {
   return debounced;
 }
 
-// 🔹 Google Sheets'ten CSV veriyi çekiyoruz
 function useBrandsData() {
   const [brands, setBrands] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -107,6 +106,7 @@ export default function Content() {
   const handleSelect = (item) => {
     setSelected(item);
     setCompany(null);
+    setQuery(item.brand);
   };
 
   if (loading)
@@ -129,15 +129,16 @@ export default function Content() {
         <h1>
           Marka → Şirket <span className="beta-tag">BETA</span>
         </h1>
-        <p>Tek input. Yaz, öğren. ✨</p>
+        <p>Yaz, öğren✨</p>
       </header>
 
       <div className="input-container">
         <Input
-          placeholder="Örn: Lexus, Omo, LC Waikiki, Galaxy…"
+          placeholder="Örn: Whatsapp, Amazon, Apple"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
+
         {debouncedQuery && results.length > 0 && (
           <div className="suggestions">
             {results.map((r) => (
@@ -150,7 +151,17 @@ export default function Content() {
         )}
       </div>
 
-      {/* Marka Modal */}
+      <p
+        style={{
+          textAlign: "center",
+          color: "#777",
+          fontSize: "0.8rem",
+          marginTop: "1rem",
+        }}
+      >
+        Yeni markalar eklenmeye devam ediyor. Hatalar olabilir 🙂
+      </p>
+
       <Suspense fallback={null}>
         {selected && (
           <BrandModal
@@ -164,7 +175,6 @@ export default function Content() {
         )}
       </Suspense>
 
-      {/* Şirket Modal */}
       <Suspense fallback={null}>
         {company && (
           <CompanyModal

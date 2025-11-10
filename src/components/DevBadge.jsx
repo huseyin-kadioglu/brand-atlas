@@ -15,7 +15,7 @@ export default function DevBadge() {
         backdropFilter: "blur(6px)",
       }}
     >
-      🧩 Geliştiriliyor — <span style={{ opacity: 0.8 }}>04 Kas 2025</span>
+      🧩 Geliştiriliyor — <span style={{ opacity: 0.8 }}>11 Kas 2025</span>
     </div>
   );
 }
