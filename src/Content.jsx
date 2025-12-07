@@ -6,6 +6,8 @@ import Papa from "papaparse";
 const BrandModal = lazy(() => import("./components/BrandModal"));
 const CompanyModal = lazy(() => import("./components/CompanyModal"));
 
+// Normalize fonksiyonunu export edelim veya modal içinde tekrar tanımlayalım. 
+// Şimdilik burada dursun, aşağıda logic içinde kullanacağız.
 function normalize(s) {
   return (s || "")
     .toString()
@@ -139,26 +141,36 @@ export default function Content() {
           onChange={(e) => setQuery(e.target.value)}
         />
 
-        {debouncedQuery && results.length > 0 && (
-          <div className="suggestions">
-            {results.map((r) => (
-              <button key={r.brand + r.company} onClick={() => handleSelect(r)}>
-                <div className="brand-name">{r.brand}</div>
-                <div className="company-name">{r.company}</div>
-              </button>
-            ))}
-          </div>
-        )}
+    {debouncedQuery && results.length > 0 && (
+  <div className="suggestions">
+    {results.map((r) => (
+      <button key={r.brand + r.company} onClick={() => handleSelect(r)}>
+        
+        {/* SOL TARAF: Marka Adı */}
+        <div className="brand-info">
+          <div className="brand-name">{r.brand}</div>
+        </div>
+
+        {/* SAĞ TARAF: Şirket Adı ve Logosu */}
+        <div className="company-details">
+          <div className="company-name">{r.company}</div>
+          
+          {/* Şirket Logosunu (r.companyLogom) ekle */}
+          {r.companyLogo && (
+            <img 
+              src={r.companyLogo} // Logo dosya yolu (Örn: /logo/volkswagen.svg)
+              alt={`${r.company} Logo`}
+              className="company-logo-small" // Boyutlandırma için CSS sınıfı
+            />
+          )}
+        </div>
+      </button>
+    ))}
+  </div>
+)}
       </div>
 
-      <p
-        style={{
-          textAlign: "center",
-          color: "#777",
-          fontSize: "0.8rem",
-          marginTop: "1rem",
-        }}
-      >
+      <p style={{ textAlign: "center", color: "#777", fontSize: "0.8rem", marginTop: "1rem" }}>
         Yeni markalar eklenmeye devam ediyor. Hatalar olabilir 🙂
       </p>
 
@@ -166,6 +178,7 @@ export default function Content() {
         {selected && (
           <BrandModal
             selected={selected}
+            brands={brands} /* <-- BURASI EKLENDİ: Tüm listeyi prop olarak gönderiyoruz */
             onClose={() => setSelected(null)}
             onCompanyOpen={(companyData) => {
               setSelected(null);

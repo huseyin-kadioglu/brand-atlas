@@ -416,3 +416,20 @@ footer p {
   font-size: 0.75rem;
   margin-top: 4px;
 }
+
+.suggestions button {
+    display: flex;             /* İçerikleri yan yana getir */
+    justify-content: space-between; /* Marka ve Şirket detaylarını birbirinden ayır */
+    align-items: center;       /* Dikey olarak ortala */
+    width: 100%;
+}
+.company-details {
+    display: flex;             /* Şirket adı ve logoyu yan yana getir */
+    align-items: center;       /* Dikey olarak ortala */
+    gap: 8px;                  /* İsim ve logo arasına boşluk koy */
+}
+.company-logo-small {
+    width: 24px;               /* Logonun boyutunu belirle */
+    height: 24px;
+    object-fit: contain;
+}

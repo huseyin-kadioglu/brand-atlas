@@ -124,3 +124,108 @@
     opacity: 1;
   }
 }
+
+/* Mevcut kodlarının altına ekle */
+
+/* === Chain (Zincir) Görünümü === */
+.chain-container {
+  margin-top: 12px;
+  background-color: #161616;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.chain-title {
+  margin: 0 0 10px 0;
+  font-size: 0.85rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.chain-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.chain-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.chain-arrow {
+  color: #555;
+  font-size: 14px;
+  margin-left: 12px; /* Girinti ayarı */
+  margin-bottom: 2px;
+  line-height: 1;
+}
+
+.chain-box {
+  display: flex;
+  align-items: center;
+  background-color: #222;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: fit-content;
+}
+
+/* Her adımda biraz daha içeri girinti yapalım */
+.chain-item:nth-child(1) .chain-box { margin-left: 0; }
+.chain-item:nth-child(2) .chain-box { margin-left: 12px; }
+.chain-item:nth-child(3) .chain-box { margin-left: 24px; }
+.chain-item:nth-child(4) .chain-box { margin-left: 36px; }
+
+.chain-box:hover {
+  background-color: #2a2a2a;
+  border-color: #444;
+}
+
+.chain-box img {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  object-fit: contain;
+  margin-right: 8px;
+  background: #fff; /* Logolar koyu temada görünsün diye */
+  padding: 1px;
+}
+
+.chain-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chain-name {
+  font-size: 0.9rem;
+  color: #eee;
+  font-weight: 500;
+}
+
+/* Nihai Sahip Stili */
+.chain-box.ultimate-owner {
+  background-color: rgba(255, 68, 68, 0.1); /* Hafif kırmızımsı */
+  border-color: rgba(255, 68, 68, 0.3);
+  width: 100%; /* En sonuncusu tam genişlik olsun */
+}
+
+.chain-box.ultimate-owner .chain-name {
+  color: #ff8888;
+  font-weight: 700;
+}
+
+.ultimate-tag {
+  font-size: 9px;
+  background-color: #ff4444;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
