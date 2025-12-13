@@ -1,29 +1,29 @@
-import { StrictMode } from 'react'
-import { render, hydrate } from 'react-dom' // Değişiklik burada
-import './index.css'
-import App from './App.jsx'
+import { StrictMode } from 'react';
+// createRoot yerine hydrateRoot'u import edin
+import { createRoot, hydrateRoot } from 'react-dom/client'; 
+import './index.css';
+import App from './App.jsx';
 
 // Root elementi al
 const rootElement = document.getElementById('root');
 
 if (rootElement.hasChildNodes()) {
-  // Eğer kök elementi çocuk düğümlere sahipse (pre-render edilmiş HTML), hydrate kullan.
-  // Bu, DOM'u tekrar oluşturmaz, sadece olay dinleyicilerini ekler.
-  hydrate(
+  // Pre-render edilmiş statik HTML üzerine olay dinleyicilerini ekler
+  hydrateRoot(
+    rootElement,
     <StrictMode>
       <App />
-    </StrictMode>,
-    rootElement
+    </StrictMode>
   );
 } else {
-  // Eğer kök elementi boşsa (geleneksel tarayıcı yüklemesi), render kullan.
-  render(
+  // Geleneksel istemci tarafı renderlama
+  const root = createRoot(rootElement);
+  root.render(
     <StrictMode>
       <App />
-    </StrictMode>,
-    rootElement
+    </StrictMode>
   );
 }
 
-// React-snap'in uygulamanızı dışa aktararak erişebilmesi için gereklidir.
+// React-snap'in çalışması için App'i dışa aktarmaya devam edin
 export { App };
