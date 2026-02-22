@@ -1,0 +1,542 @@
+﻿brand,company,uretici,notlar,country,countryCode,countryEmoji,category,logo,companyLogo,mcapRank,employees,founded,website
+Koç Holding,Koç Ailesi,Koç Ailesi,,Türkiye,TR,🇹🇷,Holding,/logo/kocholding.svg,,,100000,1926,https://www.koc.com.tr
+Sabancı Holding,Sabancı Ailesi,Sabancı Ailesi,,Türkiye,TR,🇹🇷,Holding,/logo/sabanci.svg,,,60000,1967,https://www.sabanci.com
+Yıldız Holding,Ülker Ailesi,Ülker Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,,1944,https://www.yildizholding.com.tr
+Zorlu Holding,Zorlu Ailesi,Zorlu Ailesi,,Türkiye,TR,🇹🇷,Holding,/logo/zorluholding.svg,,,,1953,https://www.zorlu.com.tr
+Doğuş Holding,Doğuş Ailesi,Doğuş Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,,1951,https://www.dogusgrubu.com.tr
+Yaşar Holding,Yaşar Ailesi,Yaşar Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,,1945,https://www.yasar.com.tr
+Akkök Holding,Akkök Ailesi,Akkök Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,,1971,https://www.akkok.com.tr
+Eczacıbaşı Holding,Eczacıbaşı Ailesi,Eczacıbaşı Ailesi,,Türkiye,TR,🇹🇷,Holding,/logo/eczacibasiholding.svg,,,,1942,https://www.eczacibasi.com.tr
+Arçelik,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Elektronik,,/logo/kocholding.svg,,40000,1955,https://www.arcelik.com.tr
+Beko,Arçelik,Arçelik,,Türkiye,TR,🇹🇷,Elektronik,,,,,,https://www.beko.com.tr
+Grundig,Arçelik,Arçelik,,Almanya,DE,🇩🇪,Elektronik,,,,,,
+Altus,Arçelik,Arçelik,,Türkiye,TR,🇹🇷,Elektronik,,,,,,
+Blomberg,Arçelik,Arçelik,,Türkiye,TR,🇹🇷,Elektronik,,,,,,
+Vestel,Zorlu Holding,Zorlu Holding,,Türkiye,TR,🇹🇷,Elektronik,,/logo/zorluholding.svg,,15000,1984,https://www.vestel.com.tr
+Regal,Vestel,Vestel,,Türkiye,TR,🇹🇷,Elektronik,,,,,,
+Dijitsu,Vestel,Vestel,,Türkiye,TR,🇹🇷,Elektronik,,,,,,
+Telefunken,Vestel,Vestel,"Alman menşeli marka, Vestel tarafından kullanım hakkı alınmıştır.",Almanya,DE,🇩🇪,Elektronik,,,,,,
+Turkcell,Turkcell,Turkcell,,Türkiye,TR,🇹🇷,Telekomünikasyon,/logo/turkcell.svg,,,12000,1994,https://www.turkcell.com.tr
+Türk Telekom,Türk Telekom,Türk Telekom,,Türkiye,TR,🇹🇷,Telekomünikasyon,/logo/turktelekom.svg,,,35000,1995,https://www.turktelekom.com.tr
+Vodafone TR,Vodafone Group,Vodafone Group,,İngiltere,GB,🇬🇧,Telekomünikasyon,,,,,,https://www.vodafone.com.tr
+Fizy,Turkcell,Turkcell,,Türkiye,TR,🇹🇷,Dijital Medya,,/logo/turkcell.svg,,,2014,https://www.fizy.com
+LC Waikiki,LC Waikiki,LC Waikiki,,Türkiye,TR,🇹🇷,Giyim,,,,50000,1988,https://www.lcwaikiki.com
+Mavi,Mavi,Mavi,,Türkiye,TR,🇹🇷,Giyim,,,,5000,1991,https://www.mavi.com
+Koton,Koton,Koton,,Türkiye,TR,🇹🇷,Giyim,,,,12000,1988,https://www.koton.com
+DeFacto,DeFacto,DeFacto,,Türkiye,TR,🇹🇷,Giyim,,,,10000,2006,https://www.defacto.com.tr
+İpekyol,İpekyol,İpekyol,,Türkiye,TR,🇹🇷,Giyim,,,,,1987,https://www.ipekyol.com.tr
+Network,İpekyol,İpekyol,,Türkiye,TR,🇹🇷,Giyim,,,,,,
+Vakko,Vakko,Vakko,,Türkiye,TR,🇹🇷,Giyim,,,,,1934,https://www.vakko.com
+Beymen,Akkök Holding,Akkök Holding,,Türkiye,TR,🇹🇷,Giyim,,,,,1971,https://www.beymen.com
+Sarar,Sarar,Sarar,,Türkiye,TR,🇹🇷,Giyim,,,,,1944,https://www.sarar.com
+Zara,Inditex,Inditex,,İspanya,ES,🇪🇸,Giyim,/logo/inditex.svg,,,,1975,https://www.zara.com
+Bershka,Inditex,Inditex,,İspanya,ES,🇪🇸,Giyim,,/logo/inditex.svg,,,,
+Pull&Bear,Inditex,Inditex,,İspanya,ES,🇪🇸,Giyim,/logo/pullbear.svg,/logo/inditex.svg,,,,
+Massimo Dutti,Inditex,Inditex,,İspanya,ES,🇪🇸,Giyim,/logo/massimodutti.svg,/logo/inditex.svg,,,,
+Oysho,Inditex,Inditex,,İspanya,ES,🇪🇸,Giyim,/logo/oysho.svg,/logo/inditex.svg,,,,
+Stradivarius,Inditex,Inditex,,İspanya,ES,🇪🇸,Giyim,/logo/stradivarius.svg,/logo/inditex.svg,,,,
+Lefties,Inditex,Inditex,,İspanya,ES,🇪🇸,Giyim,/logo/lefties.svg,/logo/inditex.svg,,,,
+Nike,Nike,Nike,,Amerika,US,🇺🇸,Giyim,,,,79000,1964,https://www.nike.com
+Adidas,Adidas,Adidas,,Almanya,DE,🇩🇪,Giyim,/logo/adidas.svg,,,59000,1949,https://www.adidas.com
+Puma,Puma,Puma,,Almanya,DE,🇩🇪,Giyim,/logo/puma.svg,,,,1948,https://www.puma.com
+Vans,VF Corporation,VF Corporation,,Amerika,US,🇺🇸,Giyim,/logo/vans.svg,,,,,https://www.vans.com
+Lacoste,Lacoste,Lacoste,,Fransa,FR,🇫🇷,Giyim,/logo/lacoste.svg,,,,1933,https://www.lacoste.com
+Calvin Klein,PVH Corp,PVH Corp,,Amerika,US,🇺🇸,Giyim,/logo/calvinklein.svg,,,,,
+Diesel,OTB Group,OTB Group,,İtalya,IT,🇮🇹,Giyim,/logo/diesel.svg,,,,1978,https://www.diesel.com
+Burberry,Burberry Group,Burberry Group,,İngiltere,GB,🇬🇧,Giyim,/logo/burberry.svg,,,,,https://www.burberry.com
+Ülker,Yıldız Holding,Yıldız Holding,,Türkiye,TR,🇹🇷,Gıda,,,,20000,1944,https://www.ulker.com.tr
+Godiva,Yıldız Holding,Yıldız Holding,,Belçika,BE,🇧🇪,Gıda,,,,,1926,https://www.godiva.com
+McVitie's,Yıldız Holding,Yıldız Holding,,İngiltere,GB,🇬🇧,Gıda,,,,,,
+ETi,ETi Bolu Çikolata,ETi Bolu Çikolata,,Türkiye,TR,🇹🇷,Gıda,,,,6000,1962,https://www.etiboluciko.com.tr
+Torku,Konya Şeker,Konya Şeker,,Türkiye,TR,🇹🇷,Gıda,,,,,2010,https://www.torku.com.tr
+Şölen,Şölen Çikolata,Şölen Çikolata,,Türkiye,TR,🇹🇷,Gıda,,,,3000,1989,https://www.solen.com.tr
+Pınar,Yaşar Holding,Yaşar Holding,,Türkiye,TR,🇹🇷,Gıda,,,,5000,1976,https://www.pinar.com.tr
+SEK,Yaşar Holding,Yaşar Holding,,Türkiye,TR,🇹🇷,Gıda,,,,,,
+Dimes,Dimes,Dimes,,Türkiye,TR,🇹🇷,İçecek,,,,,1958,https://www.dimes.com.tr
+Tat,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Gıda,,/logo/kocholding.svg,,,1967,https://www.tatgida.com.tr
+Sütaş,Sütaş,Sütaş,,Türkiye,TR,🇹🇷,Gıda,,,,7000,1985,https://www.sutas.com.tr
+İçim,Sütaş,Sütaş,,Türkiye,TR,🇹🇷,Gıda,,,,,,
+Banvit,BRF SA,BRF SA,,Brezilya,BR,🇧🇷,Gıda,,,,,1968,https://www.banvit.com
+Beypazarı,Beypazarı,Beypazarı,,Türkiye,TR,🇹🇷,İçecek,,,,,1904,https://www.beypazari.com.tr
+Uludağ,Uludağ İçecek,Uludağ İçecek,,Türkiye,TR,🇹🇷,İçecek,,,,,1930,https://www.uludag.com.tr
+Doğadan,Doğadan,Doğadan,,Türkiye,TR,🇹🇷,İçecek,,,,,1984,https://www.dogadan.com
+Çaykur,Çaykur,Çaykur,,Türkiye,TR,🇹🇷,İçecek,,,,,1971,https://www.caykur.gov.tr
+McDonald's,McDonald's Corp,McDonald's Corp,,Amerika,US,🇺🇸,Fast Food,/logo/mcdonalds.svg,,,2000000,1940,https://www.mcdonalds.com.tr
+Burger King,Restaurant Brands International,Restaurant Brands International,,Amerika,US,🇺🇸,Fast Food,/logo/burgerking.svg,,,,1953,https://www.burgerking.com.tr
+KFC,Yum! Brands,Yum! Brands,,Amerika,US,🇺🇸,Fast Food,,,,,1952,https://www.kfc.com
+Domino's,Domino's Pizza,Domino's Pizza,,Amerika,US,🇺🇸,Fast Food,,,,,1960,https://www.dominos.com.tr
+Subway,Subway,Subway,,Amerika,US,🇺🇸,Fast Food,,,,,1965,https://www.subway.com
+Starbucks,Starbucks Corp,Starbucks Corp,,Amerika,US,🇺🇸,Kahve & Cafe,/logo/starbucks.svg,,,400000,1971,https://www.starbucks.com.tr
+Kahve Dünyası,Kahve Dünyası,Kahve Dünyası,,Türkiye,TR,🇹🇷,Kahve & Cafe,,,,,2004,https://www.kahvedunyasi.com
+Coca-Cola,The Coca-Cola Company,The Coca-Cola Company,,Amerika,US,🇺🇸,İçecek,/logo/cocacola.svg,,,,1886,https://www.coca-cola.com
+Fanta,The Coca-Cola Company,The Coca-Cola Company,,Amerika,US,🇺🇸,İçecek,/logo/fanta.svg,/logo/cocacola.svg,,,,
+Sprite,The Coca-Cola Company,The Coca-Cola Company,,Amerika,US,🇺🇸,İçecek,/logo/sprite.svg,/logo/cocacola.svg,,,,
+Schweppes,The Coca-Cola Company,The Coca-Cola Company,,Amerika,US,🇺🇸,İçecek,/logo/schweppes.svg,/logo/cocacola.svg,,,,
+Powerade,The Coca-Cola Company,The Coca-Cola Company,,Amerika,US,🇺🇸,İçecek,/logo/powerade.svg,/logo/cocacola.svg,,,,
+BİM,BİM Birleşik Mağazalar,BİM Birleşik Mağazalar,,Türkiye,TR,🇹🇷,Süpermarket,,,,65000,1995,https://www.bim.com.tr
+A101,A101 Yeni Mağazacılık,A101 Yeni Mağazacılık,,Türkiye,TR,🇹🇷,Süpermarket,,,,30000,2008,https://www.a101.com.tr
+Migros,Migros Ticaret,Migros Ticaret,,Türkiye,TR,🇹🇷,Süpermarket,,,,25000,1954,https://www.migros.com.tr
+CarrefourSA,Carrefour SA,Carrefour SA,,Fransa,FR,🇫🇷,Süpermarket,,,,,1993,https://www.carrefoursa.com
+ŞOK,Yıldız Holding,Yıldız Holding,,Türkiye,TR,🇹🇷,Süpermarket,,,,30000,2011,https://www.sokmarket.com.tr
+Teknosa,Sabancı Holding,Sabancı Holding,,Türkiye,TR,🇹🇷,Perakende,,/logo/sabanci.svg,,,2000,https://www.teknosa.com
+MediaMarkt TR,MediaMarkt Saturn,MediaMarkt Saturn,,Almanya,DE,🇩🇪,Perakende,,,,,,https://www.mediamarkt.com.tr
+IKEA,Inter IKEA Group,Inter IKEA Group,,İsveç,SE,🇸🇪,Ev & Yaşam,,,,220000,1943,https://www.ikea.com.tr
+Gratis,Gratis,Gratis,,Türkiye,TR,🇹🇷,Kozmetik,,,,,2000,https://www.gratis.com
+Watsons TR,A.S. Watson Group,A.S. Watson Group,,Hong Kong,HK,🇭🇰,Kozmetik,,,,,,https://www.watsons.com.tr
+Ziraat Bankası,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Bankacılık,,,,30000,1863,https://www.ziraatbank.com.tr
+Halkbank,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Bankacılık,,,,20000,1938,https://www.halkbank.com.tr
+VakıfBank,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Bankacılık,,,,22000,1954,https://www.vakifbank.com.tr
+İş Bankası,İş Bankası,İş Bankası,,Türkiye,TR,🇹🇷,Bankacılık,,,,25000,1924,https://www.isbank.com.tr
+Garanti BBVA,BBVA,BBVA,,İspanya,ES,🇪🇸,Bankacılık,,,,18000,1946,https://www.garantibbva.com.tr
+Akbank,Sabancı Holding,Sabancı Holding,,Türkiye,TR,🇹🇷,Bankacılık,,/logo/sabanci.svg,,14000,1948,https://www.akbank.com
+Yapı Kredi,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Bankacılık,,/logo/kocholding.svg,,15000,1944,https://www.yapikredi.com.tr
+Denizbank,Emirates NBD,Emirates NBD,,BAE,AE,🇦🇪,Bankacılık,,,,12000,1938,https://www.denizbank.com
+QNB Finansbank,QNB Group,QNB Group,,Katar,QA,🇶🇦,Bankacılık,,,,10000,1987,https://www.qnbfinansbank.com
+TEB,BNP Paribas,BNP Paribas,,Fransa,FR,🇫🇷,Bankacılık,,,,,1927,https://www.teb.com.tr
+ING Bank TR,ING Group,ING Group,,Hollanda,NL,🇳🇱,Bankacılık,,,,,,https://www.ing.com.tr
+TOGG,TOGG,TOGG,,Türkiye,TR,🇹🇷,Otomotiv,,,,3000,2018,https://www.togg.com.tr
+Tofaş,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Otomotiv,,/logo/kocholding.svg,,14000,1968,https://www.tofas.com.tr
+Ford Otosan,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Otomotiv,,/logo/kocholding.svg,,10000,1959,https://www.fordotosan.com.tr
+Oyak Renault,OYAK,OYAK,,Türkiye,TR,🇹🇷,Otomotiv,,,,10000,1969,https://www.oyakrenault.com.tr
+Temsa,Sabancı Holding,Sabancı Holding,,Türkiye,TR,🇹🇷,Otomotiv,,/logo/sabanci.svg,,4000,1968,https://www.temsa.com
+BMW,BMW Group,BMW Group,,Almanya,DE,🇩🇪,Otomotiv,/logo/bmw.svg,,,,1916,https://www.bmw.com.tr
+Mercedes-Benz,Mercedes-Benz Group,Mercedes-Benz Group,,Almanya,DE,🇩🇪,Otomotiv,/logo/mercedes.svg,,,,1926,https://www.mercedes-benz.com.tr
+Toyota,Toyota Motor Corp,Toyota Motor Corp,,Japonya,JP,🇯🇵,Otomotiv,/logo/toyota.svg,,,,1937,https://www.toyota.com.tr
+Honda,Honda Motor Co,Honda Motor Co,,Japonya,JP,🇯🇵,Otomotiv,/logo/honda.svg,,,,1948,https://www.honda.com.tr
+Volkswagen,Volkswagen Group,Volkswagen Group,,Almanya,DE,🇩🇪,Otomotiv,/logo/volkswagen.svg,,,,1937,https://www.volkswagen.com.tr
+Hyundai,Hyundai Motor Group,Hyundai Motor Group,,Güney Kore,KR,🇰🇷,Otomotiv,/logo/hyundai.svg,,,,1967,https://www.hyundai.com.tr
+Audi,Volkswagen Group,Volkswagen Group,,Almanya,DE,🇩🇪,Otomotiv,/logo/audi.svg,/logo/volkswagen.svg,,,1909,https://www.audi.com.tr
+Skoda,Volkswagen Group,Volkswagen Group,,Çekya,CZ,🇨🇿,Otomotiv,/logo/skoda.svg,/logo/volkswagen.svg,,,,
+SEAT,Volkswagen Group,Volkswagen Group,,İspanya,ES,🇪🇸,Otomotiv,/logo/seat.svg,/logo/volkswagen.svg,,,,
+Porsche,Volkswagen Group,Volkswagen Group,,Almanya,DE,🇩🇪,Otomotiv,/logo/porsche.svg,/logo/volkswagen.svg,,,1931,
+Tesla,Tesla,Tesla,,Amerika,US,🇺🇸,Otomotiv,/logo/tesla.svg,,,,2003,https://www.tesla.com
+Renault,Renault Group,Renault Group,,Fransa,FR,🇫🇷,Otomotiv,/logo/renault.svg,,,,1899,https://www.renault.com.tr
+Trendyol,Alibaba Group,Alibaba Group,,Çin,CN,🇨🇳,E-Ticaret,,,,10000,2010,https://www.trendyol.com
+Hepsiburada,Hepsiburada,Hepsiburada,,Türkiye,TR,🇹🇷,E-Ticaret,,,,6000,2000,https://www.hepsiburada.com
+Getir,Getir,Getir,,Türkiye,TR,🇹🇷,E-Ticaret,,,,15000,2015,https://getir.com
+Sahibinden,Sahibinden,Sahibinden,,Türkiye,TR,🇹🇷,İlan Platformu,,,,,1999,https://www.sahibinden.com
+Yemeksepeti,Delivery Hero,Delivery Hero,,Almanya,DE,🇩🇪,Yemek Teslimatı,,,,,2000,https://www.yemeksepeti.com
+n11,Doğuş Holding,Doğuş Holding,,Türkiye,TR,🇹🇷,E-Ticaret,,,,,2012,https://www.n11.com
+Amazon,Amazon.com,Amazon.com,,Amerika,US,🇺🇸,E-Ticaret,/logo/amazon.svg,,,1500000,1994,https://www.amazon.com.tr
+Google,Alphabet,Alphabet,,Amerika,US,🇺🇸,Teknoloji,/logo/google.svg,,,180000,1998,https://www.google.com
+YouTube,Alphabet,Alphabet,,Amerika,US,🇺🇸,Dijital Medya,/logo/youtube.svg,/logo/google.svg,,,2005,
+Instagram,Meta,Meta,,Amerika,US,🇺🇸,Sosyal Medya,/logo/instagram.svg,/logo/meta.svg,,,2010,
+WhatsApp,Meta,Meta,,Amerika,US,🇺🇸,Mesajlaşma,/logo/whatsapp.svg,/logo/meta.svg,,,2009,
+Meta,Meta Platforms,Meta Platforms,,Amerika,US,🇺🇸,Teknoloji,/logo/meta.svg,,,86000,2004,https://www.meta.com
+TikTok,ByteDance,ByteDance,,Çin,CN,🇨🇳,Sosyal Medya,/logo/tiktok.svg,,,,2016,https://www.tiktok.com
+Microsoft,Microsoft Corp,Microsoft Corp,,Amerika,US,🇺🇸,Teknoloji,/logo/microsoft.svg,,,220000,1975,https://www.microsoft.com
+Netflix,Netflix,Netflix,,Amerika,US,🇺🇸,Dijital Medya,/logo/netflix.svg,,,13000,1997,https://www.netflix.com
+Peak Games,Zynga,Zynga,"Türkiye merkezli oyun şirketi; 2020'de Zynga (ABD) tarafından 1,8 milyar dolara satın alınmıştır.",Amerika,US,🇺🇸,Oyun,,,,,2010,https://www.peakgames.net
+Türk Hava Yolları,Türk Hava Yolları,Türk Hava Yolları,,Türkiye,TR,🇹🇷,Havacılık,/logo/thy.svg,,,75000,1933,https://www.turkishairlines.com
+Pegasus,Esas Holding,Esas Holding,,Türkiye,TR,🇹🇷,Havacılık,,,,5000,1990,https://www.flypgs.com
+AnadoluJet,Türk Hava Yolları,Türk Hava Yolları,,Türkiye,TR,🇹🇷,Havacılık,,/logo/thy.svg,,,2008,https://www.anadolujet.com
+SunExpress,Türk Hava Yolları,Türk Hava Yolları,,Türkiye,TR,🇹🇷,Havacılık,,/logo/thy.svg,,,1989,https://www.sunexpress.com
+Aygaz,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Enerji,,/logo/kocholding.svg,,4000,1961,https://www.aygaz.com.tr
+Opet,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Enerji,/logo/opet.svg,/logo/kocholding.svg,,,1991,https://www.opet.com.tr
+Shell TR,Shell,Shell,,İngiltere,GB,🇬🇧,Enerji,/logo/shell.svg,,,,,https://www.shell.com.tr
+Enerjisa,Sabancı Holding,Sabancı Holding,,Türkiye,TR,🇹🇷,Enerji,,/logo/sabanci.svg,,,1996,https://www.enerjisa.com.tr
+Tüpraş,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Enerji,/logo/tupras.svg,/logo/kocholding.svg,,5000,1983,https://www.tupras.com.tr
+Petkim,SOCAR,SOCAR,Azerbaycan devlet enerji şirketi SOCAR'a aittir.,Azerbaycan,AZ,🇦🇿,Enerji,/logo/petkim.svg,,,,1965,https://www.petkim.com.tr
+Eczacıbaşı,Eczacıbaşı Holding,Eczacıbaşı Holding,,Türkiye,TR,🇹🇷,Sağlık,/logo/eczacibasiholding.svg,,,12000,1942,https://www.eczacibasi.com.tr
+Vitra,Eczacıbaşı Holding,Eczacıbaşı Holding,,Türkiye,TR,🇹🇷,Yapı & Tasarım,,/logo/eczacibasiholding.svg,,,,https://www.vitra.com.tr
+Abdi İbrahim,Abdi İbrahim,Abdi İbrahim,,Türkiye,TR,🇹🇷,İlaç,,,,4000,1912,https://www.abdiibrahim.com.tr
+Flormar,Yıldız Holding,Yıldız Holding,Yıldız Holding bünyesinde Türk kozmetik markası.,Türkiye,TR,🇹🇷,Kozmetik,,,,,,
+Yurtiçi Kargo,CJ Logistics,CJ Logistics,Güney Koreli CJ Logistics şirketine aittir.,Güney Kore,KR,🇰🇷,Lojistik,,,,,1982,https://www.yurticikargo.com
+Aras Kargo,Aras Holding,Aras Holding,,Türkiye,TR,🇹🇷,Lojistik,,,,,1979,https://www.araskargo.com.tr
+MNG Kargo,MNG Holding,MNG Holding,,Türkiye,TR,🇹🇷,Lojistik,,,,,1999,https://www.mngkargo.com.tr
+PTT,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Lojistik,,,,,1840,https://www.ptt.gov.tr
+DHL TR,Deutsche Post DHL,Deutsche Post DHL,,Almanya,DE,🇩🇪,Lojistik,,,,,,https://www.dhl.com.tr
+UPS TR,United Parcel Service,United Parcel Service,,Amerika,US,🇺🇸,Lojistik,,,,,,https://www.ups.com
+Sabah,Kalyon Holding,Kalyon Holding,,Türkiye,TR,🇹🇷,Medya,,,,,1985,https://www.sabah.com.tr
+Hürriyet,Demirören Holding,Demirören Holding,,Türkiye,TR,🇹🇷,Medya,,,,,1948,https://www.hurriyet.com.tr
+Milliyet,Demirören Holding,Demirören Holding,,Türkiye,TR,🇹🇷,Medya,,,,,1950,https://www.milliyet.com.tr
+CNN Türk,Demirören Holding,Demirören Holding,,Türkiye,TR,🇹🇷,Medya,,,,,,https://www.cnnturk.com
+TRT,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Medya,,,,,1964,https://www.trt.net.tr
+BluTV,BluTV,BluTV,,Türkiye,TR,🇹🇷,Dijital Medya,,,,,2016,https://www.blutv.com
+Spotify,Spotify AB,Spotify AB,,İsveç,SE,🇸🇪,Dijital Medya,,,,9800,2006,https://www.spotify.com
+Waze,Google (Alphabet),Google (Alphabet),"İsrail'de kurulmuş navigasyon uygulaması. 2013 yılında Google tarafından yaklaşık 1,1 milyar dolara satın alınmıştır. Merkezi Tel Aviv'dedir.",İsrail,IL,🇮🇱,Teknoloji,,,,,2006,https://www.waze.com
+Check Point,Check Point Software Technologies,Check Point Software Technologies,İsrail merkezli siber güvenlik şirketi. Tel Aviv'de kurulmuştur; güvenlik duvarı ve ağ güvenliği alanında dünya lideri firmalardan biridir.,İsrail,IL,🇮🇱,Siber Güvenlik,,,,6000,1993,https://www.checkpoint.com
+CyberArk,CyberArk Software,CyberArk Software,İsrail menşeli kimlik güvenliği şirketi. Tel Aviv'de kurulmuş olup ayrıcalıklı erişim yönetimi (PAM) alanında lider konumdadır.,İsrail,IL,🇮🇱,Siber Güvenlik,,,,8000,1999,https://www.cyberark.com
+Mobileye,Intel,Intel,"İsrail'de kurulmuş sürücü destek sistemleri ve otonom sürüş teknolojileri şirketi. 2017'de Intel tarafından 15,3 milyar dolara satın alınmıştır.",İsrail,IL,🇮🇱,Teknoloji,,,,4000,1999,https://www.mobileye.com
+Wix,Wix.com,Wix.com,Tel Aviv merkezli web sitesi oluşturma platformu. Dünyada 200 milyondan fazla kullanıcısı bulunmaktadır.,İsrail,IL,🇮🇱,Teknoloji,,,,6400,2006,https://www.wix.com
+Monday.com,monday.com Ltd.,monday.com Ltd.,Tel Aviv merkezli proje yönetimi ve iş birliği platformu. NASDAQ'da işlem görmektedir.,İsrail,IL,🇮🇱,Teknoloji,,,,2000,2012,https://www.monday.com
+Fiverr,Fiverr International,Fiverr International,Tel Aviv merkezli global freelance çalışma pazaryeri. NYSE'de işlem görmektedir.,İsrail,IL,🇮🇱,Teknoloji,,,,700,2010,https://www.fiverr.com
+NICE Systems,NICE Ltd.,NICE Ltd.,"İsrail menşeli yazılım şirketi. Müşteri deneyimi, iletişim merkezi ve finansal uyumluluk yazılımları üretmektedir.",İsrail,IL,🇮🇱,Teknoloji,,,,8000,1986,https://www.nice.com
+Amdocs,Amdocs,Amdocs,İsrail kökenli telekomünikasyon yazılımı ve hizmetleri şirketi. NASDAQ'da işlem görmektedir.,İsrail,IL,🇮🇱,Teknoloji,,,,30000,1982,https://www.amdocs.com
+Keter,Keter Group,Keter Group,İsrail menşeli plastik ev ürünleri ve bahçe mobilyaları şirketi. Türkiye dahil 100'den fazla ülkede satış yapmaktadır.,İsrail,IL,🇮🇱,Ev & Yaşam,,,,5000,1948,https://www.keter.com
+Given Imaging (PillCam),Medtronic,Medtronic,İsrail'de geliştirilmiş kapsül kamera teknolojisi (PillCam). 2014'te Medtronic tarafından satın alınmıştır.,İsrail,IL,🇮🇱,Tıbbi Teknoloji,,,,,1998,https://www.medtronic.com
+Orbia (Mexichem),Orbia,Orbia,Orbia'nın Netafim birimi İsrail kökenlidir. Damla sulama sistemleri alanında İsrail'de 1965'te kurulmuştur.,İsrail,IL,🇮🇱,Kimya,,,,,,
+Apple,Apple Inc.,Apple Inc.,,Amerika,US,🇺🇸,Elektronik,/logo/apple.svg,,,164000,1976,https://www.apple.com
+iPhone,Apple Inc.,Apple Inc.,,Amerika,US,🇺🇸,Elektronik,,/logo/apple.svg,,,,
+iPad,Apple Inc.,Apple Inc.,,Amerika,US,🇺🇸,Elektronik,,/logo/apple.svg,,,,
+MacBook,Apple Inc.,Apple Inc.,,Amerika,US,🇺🇸,Elektronik,,/logo/apple.svg,,,,
+Samsung,Samsung Group,Samsung Group,,Güney Kore,KR,🇰🇷,Elektronik,/logo/samsung.svg,,,270000,1938,https://www.samsung.com/tr
+LG,LG Electronics,LG Electronics,,Güney Kore,KR,🇰🇷,Elektronik,/logo/lg.svg,,,74000,1958,https://www.lg.com/tr
+Sony,Sony Group,Sony Group,,Japonya,JP,🇯🇵,Elektronik,/logo/sony.svg,,,108000,1946,https://www.sony.com.tr
+Xiaomi,Xiaomi Corp.,Xiaomi Corp.,,Çin,CN,🇨🇳,Elektronik,/logo/xiaomi.svg,,,35000,2010,https://www.mi.com/tr
+Huawei,Huawei,Huawei,,Çin,CN,🇨🇳,Elektronik,/logo/huawei.svg,,,207000,1987,https://www.huawei.com/tr
+HP,HP Inc.,HP Inc.,,Amerika,US,🇺🇸,Elektronik,/logo/hp.svg,,,58000,1939,https://www.hp.com/tr-tr
+Dell,Dell Technologies,Dell Technologies,,Amerika,US,🇺🇸,Elektronik,,,,120000,1984,https://www.dell.com/tr-tr
+Lenovo,Lenovo Group,Lenovo Group,,Çin,CN,🇨🇳,Elektronik,/logo/lenovo.svg,,,77000,1984,https://www.lenovo.com/tr
+Asus,ASUSTeK,ASUSTeK,,TW,TW,,Elektronik,/logo/asus.svg,,,,1989,https://www.asus.com/tr
+Philips,Koninklijke Philips,Koninklijke Philips,,Hollanda,NL,🇳🇱,Elektronik,/logo/philips.svg,,,74000,1891,https://www.philips.com.tr
+Panasonic,Panasonic Holdings,Panasonic Holdings,,Japonya,JP,🇯🇵,Elektronik,/logo/panasonic.svg,,,,1918,https://www.panasonic.com/tr
+PlayStation,Sony Group,Sony Group,,Japonya,JP,🇯🇵,Oyun,,/logo/sony.svg,,,1994,https://www.playstation.com
+Xbox,Microsoft Corp,Microsoft Corp,,Amerika,US,🇺🇸,Oyun,,/logo/microsoft.svg,,,2001,
+Dyson,Dyson Ltd.,Dyson Ltd.,,İngiltere,GB,🇬🇧,Elektronik,,,,14000,1991,https://www.dyson.com.tr
+Pepsi,PepsiCo,PepsiCo,,Amerika,US,🇺🇸,İçecek,/logo/pepsi.svg,,,,1893,https://www.pepsi.com
+7UP,PepsiCo,PepsiCo,,Amerika,US,🇺🇸,İçecek,/logo/7up.svg,/logo/pepsi.svg,,,,
+Mirinda,PepsiCo,PepsiCo,,Amerika,US,🇺🇸,İçecek,,/logo/pepsi.svg,,,,
+Lay's,PepsiCo,PepsiCo,,Amerika,US,🇺🇸,Gıda,/logo/lays.svg,/logo/pepsi.svg,,,1932,
+Doritos,PepsiCo,PepsiCo,,Amerika,US,🇺🇸,Gıda,/logo/doritos.svg,/logo/pepsi.svg,,,,
+Cheetos,PepsiCo,PepsiCo,,Amerika,US,🇺🇸,Gıda,,/logo/pepsi.svg,,,,
+Quaker,PepsiCo,PepsiCo,,Amerika,US,🇺🇸,Gıda,,/logo/pepsi.svg,,,1877,
+Mountain Dew,PepsiCo,PepsiCo,,Amerika,US,🇺🇸,İçecek,,/logo/pepsi.svg,,,,
+Red Bull,Red Bull GmbH,Red Bull GmbH,,AT,AT,,İçecek,/logo/redbull.svg,,,13000,1984,https://www.redbull.com
+Nestlé,Nestlé S.A.,Nestlé S.A.,,İsviçre,CH,🇨🇭,Gıda,/logo/nestle.svg,,,275000,1866,https://www.nestle.com.tr
+Nescafé,Nestlé S.A.,Nestlé S.A.,,İsviçre,CH,🇨🇭,İçecek,,/logo/nestle.svg,,,,
+Nespresso,Nestlé S.A.,Nestlé S.A.,,İsviçre,CH,🇨🇭,Kahve & Cafe,,/logo/nestle.svg,,,1986,
+Kit Kat,Nestlé S.A.,Nestlé S.A.,,İsviçre,CH,🇨🇭,Gıda,,/logo/nestle.svg,,,,
+Maggi,Nestlé S.A.,Nestlé S.A.,,İsviçre,CH,🇨🇭,Gıda,,/logo/nestle.svg,,,,
+Milo,Nestlé S.A.,Nestlé S.A.,,İsviçre,CH,🇨🇭,İçecek,,/logo/nestle.svg,,,,
+Unilever,Unilever PLC,Unilever PLC,,İngiltere,GB,🇬🇧,Gıda,/logo/unilever.svg,,,127000,1929,https://www.unilever.com.tr
+Dove,Unilever PLC,Unilever PLC,,İngiltere,GB,🇬🇧,Kozmetik,,/logo/unilever.svg,,,,
+Axe,Unilever PLC,Unilever PLC,,İngiltere,GB,🇬🇧,Kozmetik,,/logo/unilever.svg,,,,
+Lipton,Unilever PLC,Unilever PLC,,İngiltere,GB,🇬🇧,İçecek,,/logo/unilever.svg,,,,
+Knorr,Unilever PLC,Unilever PLC,,İngiltere,GB,🇬🇧,Gıda,,/logo/unilever.svg,,,,
+Algida,Unilever PLC,Unilever PLC,,İngiltere,GB,🇬🇧,Gıda,,/logo/unilever.svg,,,,
+Domestos,Unilever PLC,Unilever PLC,,İngiltere,GB,🇬🇧,Kozmetik,,/logo/unilever.svg,,,,
+Rexona,Unilever PLC,Unilever PLC,,İngiltere,GB,🇬🇧,Kozmetik,,/logo/unilever.svg,,,,
+Clear,Unilever PLC,Unilever PLC,,İngiltere,GB,🇬🇧,Kozmetik,,/logo/unilever.svg,,,,
+Gillette,Procter & Gamble,Procter & Gamble,,Amerika,US,🇺🇸,Kozmetik,/logo/gillette.svg,,,,1901,https://www.gillette.com.tr
+Head & Shoulders,Procter & Gamble,Procter & Gamble,,Amerika,US,🇺🇸,Kozmetik,,/logo/pg.svg,,,,
+Pantene,Procter & Gamble,Procter & Gamble,,Amerika,US,🇺🇸,Kozmetik,,/logo/pg.svg,,,,
+Ariel,Procter & Gamble,Procter & Gamble,,Amerika,US,🇺🇸,Kozmetik,,/logo/pg.svg,,,,
+Pampers,Procter & Gamble,Procter & Gamble,,Amerika,US,🇺🇸,Kozmetik,,/logo/pg.svg,,,,
+Fairy,Procter & Gamble,Procter & Gamble,,Amerika,US,🇺🇸,Kozmetik,,/logo/pg.svg,,,,
+Oral-B,Procter & Gamble,Procter & Gamble,,Amerika,US,🇺🇸,Sağlık,,/logo/pg.svg,,,,
+Persil,Henkel AG,Henkel AG,,Almanya,DE,🇩🇪,Kozmetik,/logo/persil.svg,,,,,
+Pritt,Henkel AG,Henkel AG,,Almanya,DE,🇩🇪,Kozmetik,,,,,,
+Bref,Henkel AG,Henkel AG,,Almanya,DE,🇩🇪,Kozmetik,,,,,,
+Schwarzkopf,Henkel AG,Henkel AG,,Almanya,DE,🇩🇪,Kozmetik,/logo/schwarzkopf.svg,,,,,
+H&M,H & M Hennes & Mauritz,H & M Hennes & Mauritz,,İsveç,SE,🇸🇪,Giyim,/logo/hm.svg,,,160000,1947,https://www2.hm.com/tr_tr
+MANGO,MANGO,MANGO,,İspanya,ES,🇪🇸,Moda,/logo/mango.svg,,,,1984,https://www.mango.com/tr
+Tommy Hilfiger,PVH Corp,PVH Corp,,Amerika,US,🇺🇸,Moda,/logo/tommyhilfiger.svg,,,,,
+Levi's,Levi Strauss & Co.,Levi Strauss & Co.,,Amerika,US,🇺🇸,Giyim,,,,,1853,https://www.levi.com/TR
+GAP,Gap Inc.,Gap Inc.,,Amerika,US,🇺🇸,Giyim,/logo/gap.svg,,,,1969,https://www.gap.com
+Under Armour,Under Armour,Under Armour,,Amerika,US,🇺🇸,Giyim,/logo/underarmour.svg,,,,1996,https://www.underarmour.com
+New Balance,New Balance,New Balance,,Amerika,US,🇺🇸,Giyim,/logo/newbalance.svg,,,,1906,https://www.newbalance.com.tr
+Reebok,Authentic Brands Group,Authentic Brands Group,,Amerika,US,🇺🇸,Giyim,/logo/reebok.svg,,,,1958,https://www.reebok.com.tr
+Skechers,Skechers USA,Skechers USA,,Amerika,US,🇺🇸,Giyim,/logo/skechers.svg,,,,1992,https://www.skechers.com.tr
+Decathlon,Decathlon S.A.,Decathlon S.A.,,Fransa,FR,🇫🇷,Perakende,/logo/decathlon.svg,,,90000,1976,https://www.decathlon.com.tr
+Marks & Spencer TR,Marks and Spencer,Marks and Spencer,,İngiltere,GB,🇬🇧,Giyim,,,,,1884,https://www.marksandspencer.com.tr
+Penti,Penti,Penti,,Türkiye,TR,🇹🇷,Giyim,,,,5000,1950,https://www.penti.com
+Kiğılı,Kiğılı,Kiğılı,,Türkiye,TR,🇹🇷,Giyim,,,,,1954,https://www.kigili.com
+Flo,FLO Mağazacılık,FLO Mağazacılık,,Türkiye,TR,🇹🇷,Giyim,,,,7000,2009,https://www.flo.com.tr
+Aldo,Aldo Group,Aldo Group,,CA,CA,,Giyim,,,,,1972,https://www.aldoshoes.com
+Pierre Cardin TR,Pierre Cardin,Pierre Cardin,,Fransa,FR,🇫🇷,Moda,,,,,,https://www.pierrecardin.com.tr
+Guess,"Guess?, Inc.","Guess?, Inc.",,Amerika,US,🇺🇸,Moda,/logo/guess.svg,,,,1981,https://www.guess.com
+Emporio Armani TR,Giorgio Armani,Giorgio Armani,,İtalya,IT,🇮🇹,Moda,,,,,1975,https://www.armani.com
+Pizza Hut,Yum! Brands,Yum! Brands,,Amerika,US,🇺🇸,Fast Food,/logo/pizzahut.svg,,,,1958,https://www.pizzahut.com.tr
+Taco Bell,Yum! Brands,Yum! Brands,,Amerika,US,🇺🇸,Fast Food,,,,,1962,https://www.tacobell.com
+Popeyes,Restaurant Brands International,Restaurant Brands International,,Amerika,US,🇺🇸,Fast Food,,,,,1972,https://www.popeyes.com
+Tim Hortons,Restaurant Brands International,Restaurant Brands International,,CA,CA,,Kahve & Cafe,,,,,1964,https://www.timhortons.com
+Five Guys,Five Guys,Five Guys,,Amerika,US,🇺🇸,Fast Food,,,,,1986,https://www.fiveguys.com
+Sbarro,Sbarro LLC,Sbarro LLC,,Amerika,US,🇺🇸,Fast Food,,,,,1956,https://www.sbarro.com
+Gloria Jean's,Retail Food Group,Retail Food Group,,AU,AU,,Kahve & Cafe,,,,,1979,https://www.gloriajeans.com
+Costa Coffee,The Coca-Cola Company,The Coca-Cola Company,"İngiliz menşeli kahve zinciri; 2019'da Coca-Cola tarafından 5,1 milyar dolara satın alınmıştır.",İngiltere,GB,🇬🇧,Kahve & Cafe,,/logo/cocacola.svg,,,1971,https://www.costa.co.uk
+Cinnabon,Focus Brands,Focus Brands,,Amerika,US,🇺🇸,Kahve & Cafe,,,,,1985,https://www.cinnabon.com
+HSBC TR,HSBC Holdings,HSBC Holdings,,İngiltere,GB,🇬🇧,Bankacılık,,,,220000,1865,https://www.hsbc.com.tr
+Albaraka Türk,Albaraka Banking Group,Albaraka Banking Group,,BH,BH,,Bankacılık,,,,,1985,https://www.albarakaturk.com.tr
+Kuveyt Türk,Kuwait Finance House,Kuwait Finance House,,KW,KW,,Bankacılık,,,,6000,1989,https://www.kuveytturk.com.tr
+Ziraat Katılım,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Bankacılık,,,,,2015,https://www.ziraatkatilim.com.tr
+Vakıf Katılım,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Bankacılık,,,,,2016,https://www.vakifkatilim.com.tr
+Visa,Visa Inc.,Visa Inc.,,Amerika,US,🇺🇸,Finans,/logo/visa.svg,,,26500,1958,https://www.visa.com.tr
+Mastercard,Mastercard Inc.,Mastercard Inc.,,Amerika,US,🇺🇸,Finans,/logo/mastercard.svg,,,29000,1966,https://www.mastercard.com.tr
+PayPal,PayPal Holdings,PayPal Holdings,,Amerika,US,🇺🇸,Finans,/logo/paypal.svg,,,27200,1998,https://www.paypal.com
+American Express,American Express,American Express,,Amerika,US,🇺🇸,Finans,/logo/amex.svg,,,,1850,https://www.americanexpress.com
+Allianz TR,Allianz SE,Allianz SE,,Almanya,DE,🇩🇪,Finans,,,,150000,1890,https://www.allianz.com.tr
+AXA Sigorta TR,AXA SA,AXA SA,,Fransa,FR,🇫🇷,Finans,,,,,1817,https://www.axa.com.tr
+Anadolu Sigorta,İş Bankası,İş Bankası,,Türkiye,TR,🇹🇷,Finans,,,,,1925,https://www.anadolusigorta.com.tr
+Mapfre Sigorta TR,Mapfre S.A.,Mapfre S.A.,,İspanya,ES,🇪🇸,Finans,,,,,1933,https://www.mapfre.com.tr
+Garanti BBVA Sigorta,BBVA,BBVA,,İspanya,ES,🇪🇸,Finans,,,,,1992,https://www.garantisigorta.com.tr
+Türkiye Sigorta,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Finans,,,,,2020,https://www.turkiyesigorta.com.tr
+Fiat,Stellantis,Stellantis,,İtalya,IT,🇮🇹,Otomotiv,/logo/fiat.svg,,,,1899,https://www.fiat.com.tr
+Opel,Stellantis,Stellantis,,Almanya,DE,🇩🇪,Otomotiv,/logo/opel.svg,,,,1862,https://www.opel.com.tr
+Peugeot,Stellantis,Stellantis,,Fransa,FR,🇫🇷,Otomotiv,/logo/peugeot.svg,,,,1896,https://www.peugeot.com.tr
+Citroën,Stellantis,Stellantis,,Fransa,FR,🇫🇷,Otomotiv,/logo/citroen.svg,,,,1919,https://www.citroen.com.tr
+Alfa Romeo,Stellantis,Stellantis,,İtalya,IT,🇮🇹,Otomotiv,/logo/alfaromeo.svg,,,,1910,
+Jeep,Stellantis,Stellantis,,Amerika,US,🇺🇸,Otomotiv,/logo/jeep.svg,,,,1941,
+Kia,Hyundai Motor Group,Hyundai Motor Group,,Güney Kore,KR,🇰🇷,Otomotiv,/logo/kia.svg,,,,1944,https://www.kia.com/tr
+Ford,Ford Motor Co,Ford Motor Co,,Amerika,US,🇺🇸,Otomotiv,/logo/ford.svg,,,177000,1903,https://www.ford.com.tr
+Nissan,Renault-Nissan-Mitsubishi Alliance,Renault-Nissan-Mitsubishi Alliance,,Japonya,JP,🇯🇵,Otomotiv,/logo/nissan.svg,,,,1933,https://www.nissan.com.tr
+Suzuki,Suzuki Motor Corp,Suzuki Motor Corp,,Japonya,JP,🇯🇵,Otomotiv,/logo/suzuki.svg,,,,1909,https://www.suzuki.com.tr
+Volvo Cars,Geely Holding,Geely Holding,,İsveç,SE,🇸🇪,Otomotiv,/logo/volvo.svg,,,,1927,https://www.volvocars.com/tr
+Land Rover,Tata Motors,Tata Motors,,İngiltere,GB,🇬🇧,Otomotiv,/logo/landrover.svg,,,,1948,https://www.landrover.com.tr
+Jaguar,Tata Motors,Tata Motors,,İngiltere,GB,🇬🇧,Otomotiv,,,,,1922,https://www.jaguar.com
+Mitsubishi,Renault-Nissan-Mitsubishi Alliance,Renault-Nissan-Mitsubishi Alliance,,Japonya,JP,🇯🇵,Otomotiv,/logo/mitsubishi.svg,,,,1917,
+Hilton TR,Hilton Worldwide,Hilton Worldwide,,Amerika,US,🇺🇸,Perakende,,,,430000,1919,https://www.hilton.com/tr
+Marriott TR,Marriott International,Marriott International,,Amerika,US,🇺🇸,Perakende,,,,380000,1927,https://www.marriott.com
+Sheraton TR,Marriott International,Marriott International,,Amerika,US,🇺🇸,Perakende,,,,,1937,https://www.marriott.com/sheraton
+Accor TR,Accor S.A.,Accor S.A.,,Fransa,FR,🇫🇷,Perakende,,,,300000,1967,https://www.accor.com
+Novotel TR,Accor S.A.,Accor S.A.,,Fransa,FR,🇫🇷,Perakende,,,,,,https://www.novotel.com
+ETS Tur,ETS Tur,ETS Tur,,Türkiye,TR,🇹🇷,Perakende,,,,,1987,https://www.etsglobal.com
+Jolly Tur,Jolly Tur,Jolly Tur,,Türkiye,TR,🇹🇷,Perakende,,,,,1973,https://www.jolly.com.tr
+Limak Holding,Limak Holding,Limak Holding,,Türkiye,TR,🇹🇷,İnşaat,,,,,1976,https://www.limak.com.tr
+Rönesans,Rönesans Holding,Rönesans Holding,,Türkiye,TR,🇹🇷,İnşaat,,,,,1993,https://www.ronesans.com
+Kalyon,Kalyon Holding,Kalyon Holding,,Türkiye,TR,🇹🇷,İnşaat,,,,,1972,https://www.kalyonholding.com
+Insaat.com TR,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,İnşaat,,,,,,
+Çimsa,Sabancı Holding,Sabancı Holding,,Türkiye,TR,🇹🇷,İnşaat,,/logo/sabanci.svg,,,1972,https://www.cimsa.com.tr
+Çimko,Yaşar Holding,Yaşar Holding,,Türkiye,TR,🇹🇷,İnşaat,,,,,1969,https://www.cimko.com.tr
+Zoom,Zoom Video Communications,Zoom Video Communications,,Amerika,US,🇺🇸,Teknoloji,/logo/zoom.svg,,,7400,2011,https://www.zoom.us
+Slack,Salesforce,Salesforce,,Amerika,US,🇺🇸,Teknoloji,/logo/slack.svg,,,,2013,https://www.slack.com
+Dropbox,Dropbox Inc.,Dropbox Inc.,,Amerika,US,🇺🇸,Teknoloji,/logo/dropbox.svg,,,3000,2007,https://www.dropbox.com
+Jira,Atlassian,Atlassian,,AU,AU,,Teknoloji,/logo/jira.svg,,,,2002,https://www.atlassian.com
+GitHub,Microsoft Corp,Microsoft Corp,,Amerika,US,🇺🇸,Teknoloji,/logo/github.svg,/logo/microsoft.svg,,,2008,https://www.github.com
+LinkedIn,Microsoft Corp,Microsoft Corp,,Amerika,US,🇺🇸,Sosyal Medya,/logo/linkedin.svg,/logo/microsoft.svg,,,2003,https://www.linkedin.com
+Twitter/X,X Corp,X Corp,,Amerika,US,🇺🇸,Sosyal Medya,/logo/x.svg,,,,2006,https://www.x.com
+Snapchat,Snap Inc.,Snap Inc.,,Amerika,US,🇺🇸,Sosyal Medya,/logo/snapchat.svg,,,,2011,https://www.snapchat.com
+Pinterest,Pinterest Inc.,Pinterest Inc.,,Amerika,US,🇺🇸,Sosyal Medya,/logo/pinterest.svg,,,,2010,https://www.pinterest.com
+Twitch,Amazon.com,Amazon.com,,Amerika,US,🇺🇸,Dijital Medya,,/logo/amazon.svg,,,2011,https://www.twitch.tv
+Disney+,The Walt Disney Company,The Walt Disney Company,,Amerika,US,🇺🇸,Dijital Medya,/logo/disneyplus.svg,,,,2019,https://www.disneyplus.com
+Prime Video,Amazon.com,Amazon.com,,Amerika,US,🇺🇸,Dijital Medya,,/logo/amazon.svg,,,2006,https://www.primevideo.com
+Efsane TR,Trendyol,Trendyol,,Çin,CN,🇨🇳,E-Ticaret,,,,,,
+Uber TR,Uber Technologies,Uber Technologies,,Amerika,US,🇺🇸,Teknoloji,/logo/uber.svg,,,32000,2009,https://www.uber.com/tr
+Airbnb TR,Airbnb Inc.,Airbnb Inc.,,Amerika,US,🇺🇸,Perakende,/logo/airbnb.svg,,,6900,2008,https://www.airbnb.com.tr
+Booking.com,Booking Holdings,Booking Holdings,,Hollanda,NL,🇳🇱,Perakende,/logo/booking.svg,,,25000,1996,https://www.booking.com
+eToro,eToro Group Ltd.,eToro Group Ltd.,"Tel Aviv merkezli sosyal yatırım platformu. Hisse senedi, kripto para ve diğer varlıkların alım satımına aracılık eder. Kullanıcıların başarılı yatırımcıları taklit etmesine olanak tanır.",İsrail,IL,🇮🇱,Finans,,,,1600,2007,https://www.etoro.com
+Payoneer,Payoneer Inc.,Payoneer Inc.,İsrail kökenli dijital ödeme platformu. Serbest çalışanlar ve küresel e-ticaret şirketleri tarafından yaygın biçimde kullanılmaktadır.,İsrail,IL,🇮🇱,Finans,,,,2100,2005,https://www.payoneer.com
+Taboola,Taboola.com Ltd.,Taboola.com Ltd.,Tel Aviv merkezli içerik keşif ve yerel reklam platformu. Habersitelerinin 'Bunları da beğenebilirsiniz' bölümlerinde yaygın kullanılan bir İsrail şirketidir.,İsrail,IL,🇮🇱,Teknoloji,,,,2000,2007,https://www.taboola.com
+AppsFlyer,AppsFlyer Ltd.,AppsFlyer Ltd.,Tel Aviv merkezli mobil pazarlama analitiği şirketi. Uygulama yüklemelerini ve kampanya performansını ölçmekte kullanılır.,İsrail,IL,🇮🇱,Teknoloji,,,,1500,2011,https://www.appsflyer.com
+Varonis,Varonis Systems,Varonis Systems,İsrail menşeli veri güvenliği şirketi. Kurumsal veri erişim analitiği ve tehdit tespiti alanında faaliyet göstermektedir. NASDAQ'da işlem görmektedir.,İsrail,IL,🇮🇱,Siber Güvenlik,,,,2000,2005,https://www.varonis.com
+Radware,Radware Ltd.,Radware Ltd.,İsrail merkezli ağ güvenliği ve uygulama dağıtım çözümleri şirketi. DDoS koruma ve yük dengeleme alanlarında faaliyet göstermektedir.,İsrail,IL,🇮🇱,Siber Güvenlik,,,,1100,1997,https://www.radware.com
+SolarEdge,SolarEdge Technologies,SolarEdge Technologies,İsrail merkezli güneş enerjisi optimize edici ve invertör üreticisi. NASDAQ'da işlem görmekte olup dünya genelinde milyonlarca güneş paneli sistemiyle kullanılmaktadır.,İsrail,IL,🇮🇱,Enerji,,,,5000,2006,https://www.solaredge.com
+Playtika,Playtika Holding,Playtika Holding,"İsrail merkezli mobil oyun şirketi. Slotomania, World Series of Poker gibi sosyal casino oyunlarıyla tanınmaktadır. NASDAQ'da işlem görmektedir.",İsrail,IL,🇮🇱,Oyun,,,,4000,2010,https://www.playtika.com
+IronSource,Unity Technologies,Unity Technologies,"Tel Aviv merkezli oyun ve uygulama büyüme platformu. 2022'de Unity Technologies tarafından 4,4 milyar dolara satın alınmıştır.",İsrail,IL,🇮🇱,Teknoloji,,,,1700,2010,https://www.unity.com
+WalkMe,SAP SE,SAP SE,"Tel Aviv merkezli dijital benimseme platformu. 2024'te SAP tarafından yaklaşık 1,5 milyar dolara satın alınmıştır.",İsrail,IL,🇮🇱,Teknoloji,,,,1000,2011,https://www.walkme.com
+Imperva,Thales Group,Thales Group,İsrail kökenli siber güvenlik şirketi. Web uygulama güvenlik duvarı (WAF) ve veri güvenliği alanında lider konumdadır. 2023'te Thales Group tarafından satın alınmıştır.,İsrail,IL,🇮🇱,Siber Güvenlik,,,,1500,2002,https://www.imperva.com
+Borusan Holding,Borusan Holding,Borusan Holding,,Türkiye,TR,🇹🇷,Holding,,,,15000,1944,https://www.borusan.com
+Anadolu Grubu,Anadolu Grubu,Anadolu Grubu,,Türkiye,TR,🇹🇷,Holding,,,,24000,1950,https://www.anadolugrubu.com.tr
+Doğan Holding,Doğan Ailesi,Doğan Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,,1959,https://www.doganholding.com.tr
+Alarko Holding,Alarko Holding,Alarko Holding,,Türkiye,TR,🇹🇷,Holding,,,,,1954,https://www.alarko.com.tr
+OYAK,OYAK,OYAK,,Türkiye,TR,🇹🇷,Holding,,,,80000,1961,https://www.oyak.com.tr
+Boydak Holding,Boydak Ailesi,Boydak Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,,1957,https://www.boydak.com.tr
+Demirören Holding,Demirören Ailesi,Demirören Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,,1975,https://www.demirorenholding.com
+Çalık Holding,Çalık Ailesi,Çalık Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,,1981,https://www.calik.com
+Cengiz Holding,Cengiz Ailesi,Cengiz Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,,1980,https://www.cengiz.com.tr
+Kalyon Holding,Kalyon Ailesi,Kalyon Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,,1972,https://www.kalyonholding.com
+Esas Holding,Esas Holding,Esas Holding,,Türkiye,TR,🇹🇷,Holding,,,,,1998,https://www.esasholding.com
+Kalekim / Kale Grubu,Kale Grubu,Kale Grubu,,Türkiye,TR,🇹🇷,Holding,,,,,1948,https://www.kalegrp.com
+Metro Türkiye,Metro AG,Metro AG,,Almanya,DE,🇩🇪,Süpermarket,,,,,1997,https://www.metro.com.tr
+Lidl TR,Lidl Stiftung & Co.,Lidl Stiftung & Co.,,Almanya,DE,🇩🇪,Süpermarket,,,,300000,1930,https://www.lidl.com.tr
+Koçtaş,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Perakende,,/logo/kocholding.svg,,,1993,https://www.koctas.com.tr
+Bauhaus TR,Bauhaus GmbH,Bauhaus GmbH,,Almanya,DE,🇩🇪,Perakende,,,,,1960,https://www.bauhaus.com.tr
+Boyner,Boyner Grup,Boyner Grup,,Türkiye,TR,🇹🇷,Perakende,,,,8000,1934,https://www.boyner.com.tr
+Macro Center,Doğuş Holding,Doğuş Holding,,Türkiye,TR,🇹🇷,Süpermarket,,,,,2005,https://www.macrocenter.com.tr
+Bizim Toptan,BİM,BİM,,Türkiye,TR,🇹🇷,Süpermarket,,,,,2007,https://www.bizimtoptan.com.tr
+English Home,English Home,English Home,,Türkiye,TR,🇹🇷,Ev & Yaşam,,,,,2001,https://www.englishhome.com
+Madame Coco,Madame Coco,Madame Coco,,Türkiye,TR,🇹🇷,Ev & Yaşam,,,,,2010,https://www.madamecoco.com
+İstikbal,Boydak Holding,Boydak Holding,,Türkiye,TR,🇹🇷,Ev & Yaşam,,,,,1957,https://www.istikbal.com.tr
+Bellona,Boydak Holding,Boydak Holding,,Türkiye,TR,🇹🇷,Ev & Yaşam,,,,,1980,https://www.bellona.com.tr
+Yataş,Yataş Holding,Yataş Holding,,Türkiye,TR,🇹🇷,Ev & Yaşam,,,,,1976,https://www.yatas.com.tr
+Çiçeksepeti,Çiçeksepeti,Çiçeksepeti,,Türkiye,TR,🇹🇷,E-Ticaret,,,,,2006,https://www.ciceksepeti.com
+D&R,Doğan Holding,Doğan Holding,,Türkiye,TR,🇹🇷,Perakende,,,,,1956,https://www.dr.com.tr
+Sportmaster TR,Sportmaster Group,Sportmaster Group,,RU,RU,,Perakende,,,,,,https://www.sportmaster.com.tr
+LC Waikiki Mağazaları,LC Waikiki,LC Waikiki,,Türkiye,TR,🇹🇷,Perakende,,,,,,https://www.lcwaikiki.com
+Paşabahçe,Şişecam,Şişecam,,Türkiye,TR,🇹🇷,Ev & Yaşam,,,,,1935,https://www.pasabahce.com
+Şişecam,Şişecam,Şişecam,,Türkiye,TR,🇹🇷,Yapı & Tasarım,,,,22000,1935,https://www.sisecam.com.tr
+Şekerbank,Şekerbank,Şekerbank,,Türkiye,TR,🇹🇷,Bankacılık,,,,,1953,https://www.sekerbank.com.tr
+TSKB,İş Bankası,İş Bankası,,Türkiye,TR,🇹🇷,Bankacılık,,,,,1950,https://www.tskb.com.tr
+Fibabanka,Fiba Group,Fiba Group,,Türkiye,TR,🇹🇷,Bankacılık,,,,,1984,https://www.fibabanka.com.tr
+Odea Bank,Bank Audi SAL,Bank Audi SAL,,LB,LB,,Bankacılık,,,,,2012,https://www.odeabank.com.tr
+Türk Eximbank,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Bankacılık,,,,,1987,https://www.eximbank.gov.tr
+Burgan Bank TR,Burgan Bank,Burgan Bank,,KW,KW,,Bankacılık,,,,,2012,https://www.burgan.com.tr
+Alternatif Bank,Commercial Bank Qatar,Commercial Bank Qatar,,Katar,QA,🇶🇦,Bankacılık,,,,,1992,https://www.alternatifbank.com.tr
+Halk Sigorta,Halkbank,Halkbank,,Türkiye,TR,🇹🇷,Finans,,,,,1990,https://www.halksigorta.com.tr
+Ziraat Sigorta,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Finans,,,,,2013,https://www.ziraatsigorta.com.tr
+Milli Reasürans,İş Bankası,İş Bankası,,Türkiye,TR,🇹🇷,Finans,,,,,1929,https://www.millire.com
+Ray Sigorta,İş Bankası,İş Bankası,,Türkiye,TR,🇹🇷,Finans,,,,,1958,https://www.raysigorta.com.tr
+Corendon Airlines,Corendon Group,Corendon Group,,Türkiye,TR,🇹🇷,Havacılık,,,,,2004,https://www.corendon-airlines.com
+Turkish Cargo,Türk Hava Yolları,Türk Hava Yolları,,Türkiye,TR,🇹🇷,Lojistik,,/logo/thy.svg,,,2002,https://www.turkishcargo.com.tr
+Lufthansa TR,Lufthansa Group,Lufthansa Group,,Almanya,DE,🇩🇪,Havacılık,,,,105000,1953,https://www.lufthansa.com/tr/tr
+Emirates TR,Emirates Group,Emirates Group,,BAE,AE,🇦🇪,Havacılık,/logo/emirates.svg,,,100000,1985,https://www.emirates.com/tr
+Qatar Airways TR,Qatar Airways,Qatar Airways,,Katar,QA,🇶🇦,Havacılık,,,,50000,1993,https://www.qatarairways.com/tr-tr
+British Airways TR,International Airlines Group,International Airlines Group,,İngiltere,GB,🇬🇧,Havacılık,,,,,1974,https://www.britishairways.com
+Air France TR,Air France-KLM,Air France-KLM,,Fransa,FR,🇫🇷,Havacılık,,,,,1933,https://www.airfrance.com.tr
+KLM TR,Air France-KLM,Air France-KLM,,Hollanda,NL,🇳🇱,Havacılık,,,,33000,1919,https://www.klm.com/tr
+Flydubai TR,flydubai,flydubai,,BAE,AE,🇦🇪,Havacılık,,,,,2008,https://www.flydubai.com/tr
+EasyJet TR,easyJet plc,easyJet plc,,İngiltere,GB,🇬🇧,Havacılık,,,,15000,1995,https://www.easyjet.com
+Aksa Enerji,Kazancı Holding,Kazancı Holding,,Türkiye,TR,🇹🇷,Enerji,,,,4500,1997,https://www.aksaenerji.com.tr
+Aksa Doğalgaz,Kazancı Holding,Kazancı Holding,,Türkiye,TR,🇹🇷,Enerji,,,,,2009,https://www.aksadogalgaz.com.tr
+BP TR,BP plc,BP plc,,İngiltere,GB,🇬🇧,Enerji,/logo/bp.svg,,,90000,1908,https://www.bp.com/tr
+TotalEnergies TR,TotalEnergies SE,TotalEnergies SE,,Fransa,FR,🇫🇷,Enerji,,,,100000,1924,https://totalenergies.com/tr
+BOTAŞ,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Enerji,,,,,1974,https://www.botas.gov.tr
+İGDAŞ,İstanbul Büyükşehir Belediyesi,İstanbul Büyükşehir Belediyesi,,Türkiye,TR,🇹🇷,Enerji,,,,,1988,https://www.igdas.com.tr
+TEDAŞ,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Enerji,,,,,1970,https://www.tedas.gov.tr
+Borusan EnBW,Borusan Holding,Borusan Holding,,Türkiye,TR,🇹🇷,Enerji,,,,,2008,https://www.borusanenbw.com.tr
+Aydem Enerji,Kolin Grubu,Kolin Grubu,,Türkiye,TR,🇹🇷,Enerji,,,,,2013,https://www.aydem.com.tr
+Enerjisa Üretim,E.ON SE,E.ON SE,,Almanya,DE,🇩🇪,Enerji,,,,,2013,https://www.enerjisauretim.com.tr
+TPAO,Türkiye Cumhuriyeti,Türkiye Cumhuriyeti,,Türkiye,TR,🇹🇷,Enerji,,,,,1954,https://www.tpao.gov.tr
+Anadolu Efes,Anadolu Grubu,Anadolu Grubu,,Türkiye,TR,🇹🇷,İçecek,,,,14000,1969,https://www.anadoluefes.com
+Efes Pilsener,Anadolu Efes,Anadolu Efes,,Türkiye,TR,🇹🇷,İçecek,,,,,,https://www.efes.com.tr
+Bomonti,Anadolu Efes,Anadolu Efes,Türkiye'nin ilk bira markalarından biri; Anadolu Efes bünyesinde üretilmektedir.,Türkiye,TR,🇹🇷,İçecek,,,,,,
+Tuborg TR,Anadolu Efes,Anadolu Efes,Carlsberg Grubu'nun Danimarkalı markası; Türkiye'de Anadolu Efes tarafından lisans sözleşmesiyle üretilmektedir.,Danimarka,DK,🇩🇰,İçecek,,,,,,
+Yeni Rakı,Mey İçki (Diageo),Mey İçki (Diageo),Türkiye'nin en yaygın rakı markası. Mey İçki 2011'de İngiliz içki devi Diageo tarafından satın alınmıştır.,Türkiye,TR,🇹🇷,İçecek,,,,,2004,https://www.meyickileri.com.tr
+Tekirdağ Rakı,Mey İçki (Diageo),Mey İçki (Diageo),Mey İçki bünyesindeki premium rakı markası; Diageo'ya aittir.,Türkiye,TR,🇹🇷,İçecek,,,,,,
+Kulüp Rakı,Mey İçki (Diageo),Mey İçki (Diageo),Mey İçki bünyesindeki ekonomi segmenti rakı markası; Diageo'ya aittir.,Türkiye,TR,🇹🇷,İçecek,,,,,,
+Ferrero TR,Ferrero Group,Ferrero Group,,İtalya,IT,🇮🇹,Gıda,,,,47000,1942,https://www.ferrero.com
+Nutella,Ferrero Group,Ferrero Group,,İtalya,IT,🇮🇹,Gıda,,/logo/ferrero.svg,,,,
+Kinder,Ferrero Group,Ferrero Group,,İtalya,IT,🇮🇹,Gıda,,/logo/ferrero.svg,,,,
+Tic Tac,Ferrero Group,Ferrero Group,,İtalya,IT,🇮🇹,Gıda,,/logo/ferrero.svg,,,,
+Raffaello,Ferrero Group,Ferrero Group,,İtalya,IT,🇮🇹,Gıda,,/logo/ferrero.svg,,,,
+Rocher,Ferrero Group,Ferrero Group,,İtalya,IT,🇮🇹,Gıda,,/logo/ferrero.svg,,,,
+Mars TR,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,,,140000,1911,https://www.mars.com
+Snickers,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,/logo/mars.svg,,,,
+Twix,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,/logo/mars.svg,,,,
+M&M's,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,/logo/mars.svg,,,,
+Bounty,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,/logo/mars.svg,,,,
+Milky Way,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,/logo/mars.svg,,,,
+Skittles,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,/logo/mars.svg,,,,
+Orbit,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,/logo/mars.svg,,,,
+Mondelēz TR,Mondelēz International,Mondelēz International,,Amerika,US,🇺🇸,Gıda,,,,79000,2012,https://www.mondelezinternational.com
+Oreo,Mondelēz International,Mondelēz International,,Amerika,US,🇺🇸,Gıda,,/logo/mondelez.svg,,,,
+Milka,Mondelēz International,Mondelēz International,,Almanya,DE,🇩🇪,Gıda,,/logo/mondelez.svg,,,,
+Cadbury,Mondelēz International,Mondelēz International,,İngiltere,GB,🇬🇧,Gıda,,/logo/mondelez.svg,,,,
+Toblerone,Mondelēz International,Mondelēz International,,İsviçre,CH,🇨🇭,Gıda,,/logo/mondelez.svg,,,,
+Halls,Mondelēz International,Mondelēz International,,Amerika,US,🇺🇸,Gıda,,/logo/mondelez.svg,,,,
+Trident,Mondelēz International,Mondelēz International,,Amerika,US,🇺🇸,Gıda,,/logo/mondelez.svg,,,,
+BelVita,Mondelēz International,Mondelēz International,,Amerika,US,🇺🇸,Gıda,,/logo/mondelez.svg,,,,
+Danone TR,Danone S.A.,Danone S.A.,,Fransa,FR,🇫🇷,Gıda,,,,100000,1919,https://www.danone.com
+Activia,Danone S.A.,Danone S.A.,,Fransa,FR,🇫🇷,Gıda,,/logo/danone.svg,,,,
+Actimel,Danone S.A.,Danone S.A.,,Fransa,FR,🇫🇷,Gıda,,/logo/danone.svg,,,,
+Aptamil,Danone S.A.,Danone S.A.,,Almanya,DE,🇩🇪,Gıda,,/logo/danone.svg,,,,
+Heineken TR,Heineken N.V.,Heineken N.V.,,Hollanda,NL,🇳🇱,İçecek,/logo/heineken.svg,,,85000,1873,https://www.heineken.com/tr
+Amstel TR,Heineken N.V.,Heineken N.V.,,Hollanda,NL,🇳🇱,İçecek,,/logo/heineken.svg,,,,
+Kellogg's TR,Kellanova,Kellanova,,Amerika,US,🇺🇸,Gıda,,,,31000,1906,https://www.kelloggs.com.tr
+Haribo TR,Haribo GmbH,Haribo GmbH,,Almanya,DE,🇩🇪,Gıda,,,,7000,1920,https://www.haribo.com
+Dr. Oetker TR,Dr. Oetker,Dr. Oetker,,Almanya,DE,🇩🇪,Gıda,,,,32000,1891,https://www.oetker.com.tr
+Barilla TR,Barilla Group,Barilla Group,,İtalya,IT,🇮🇹,Gıda,,,,9000,1877,https://www.barilla.com
+Pringles,Kellanova,Kellanova,,Amerika,US,🇺🇸,Gıda,,/logo/kelloggs.svg,,,,
+Monster Energy,The Coca-Cola Company,The Coca-Cola Company,,Amerika,US,🇺🇸,İçecek,,/logo/cocacola.svg,,,2002,https://www.monsterenergy.com
+Cappy,The Coca-Cola Company,The Coca-Cola Company,Türkiye kökenli meyve suyu markası; Coca-Cola şirketi tarafından satın alınmış ve küresel ölçeğe taşınmıştır.,Türkiye,TR,🇹🇷,İçecek,,/logo/cocacola.svg,,,,
+Komili,Unilever PLC,Unilever PLC,Türkiye'nin köklü zeytinyağı markası; Unilever tarafından satın alınmıştır.,Türkiye,TR,🇹🇷,Gıda,,,,,1896,https://www.komili.com
+Tamek,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Gıda,,/logo/kocholding.svg,,,1954,https://www.tamek.com.tr
+Nuh'un Ankara Makarnası,Nuh'un Ankara,Nuh'un Ankara,,Türkiye,TR,🇹🇷,Gıda,,,,,1950,https://www.nuhunankara.com.tr
+Doğuş Çay,Doğuş Holding,Doğuş Holding,,Türkiye,TR,🇹🇷,İçecek,,,,,2000,https://www.doguscay.com.tr
+Yörsan,Yörsan,Yörsan,,Türkiye,TR,🇹🇷,Gıda,,,,,1967,https://www.yorsan.com.tr
+Namet,Namet Gıda,Namet Gıda,,Türkiye,TR,🇹🇷,Gıda,,,,,1945,https://www.namet.com.tr
+Fersan,Fersan,Fersan,,Türkiye,TR,🇹🇷,Gıda,,,,,1961,https://www.fersan.com.tr
+Patos,Eti Bolu,Eti Bolu,,Türkiye,TR,🇹🇷,Gıda,,,,,,https://www.etiboluciko.com.tr
+Mini,Eti Bolu,Eti Bolu,,Türkiye,TR,🇹🇷,Gıda,,,,,,
+Yudum,Yıldız Holding,Yıldız Holding,,Türkiye,TR,🇹🇷,Gıda,,,,,1975,https://www.yudum.com.tr
+Kristal,Yıldız Holding,Yıldız Holding,,Türkiye,TR,🇹🇷,Gıda,,,,,1960,https://www.kristal.com.tr
+Hayat Holding,Hayat Holding,Hayat Holding,,Türkiye,TR,🇹🇷,Holding,,,,8000,1937,https://www.hayatholding.com
+Tekfen Holding,Tekfen Holding,Tekfen Holding,,Türkiye,TR,🇹🇷,Holding,,,,15000,1956,https://www.tekfen.com.tr
+Kibar Holding,Kibar Ailesi,Kibar Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,,1948,https://www.kibarholding.com
+Sanko Holding,Sanko Holding,Sanko Holding,,Türkiye,TR,🇹🇷,Holding,,,,20000,1966,https://www.sanko.com.tr
+Nurol Holding,Nurol Holding,Nurol Holding,,Türkiye,TR,🇹🇷,Holding,,,,,1972,https://www.nurolholding.com
+Çelikler Holding,Çelikler Holding,Çelikler Holding,,Türkiye,TR,🇹🇷,Holding,,,,,1968,https://www.celiklerholding.com
+Tosyalı Holding,Tosyalı Ailesi,Tosyalı Ailesi,,Türkiye,TR,🇹🇷,Holding,,,,10000,1982,https://www.tosyaliholding.com
+İçdaş,İçdaş,İçdaş,,Türkiye,TR,🇹🇷,Holding,,,,5000,1970,https://www.icdas.com.tr
+Limak Holding,Limak Holding,Limak Holding,,Türkiye,TR,🇹🇷,Holding,,,,,1976,https://www.limak.com.tr
+Global Yatırım Holding,Global Yatırım Holding,Global Yatırım Holding,,Türkiye,TR,🇹🇷,Holding,,,,,1990,https://www.globalyatirimholding.com
+Sephora TR,LVMH,LVMH,,Fransa,FR,🇫🇷,Kozmetik,/logo/sephora.svg,,,46000,1969,https://www.sephora.com.tr
+Rossmann TR,Rossmann GmbH,Rossmann GmbH,,Almanya,DE,🇩🇪,Kozmetik,,,,56000,1972,https://www.rossmann.com.tr
+Intersport TR,Intersport Group,Intersport Group,,İsviçre,CH,🇨🇭,Perakende,,,,,1968,https://www.intersport.com.tr
+Özdilek,Özdilek Holding,Özdilek Holding,,Türkiye,TR,🇹🇷,Perakende,,,,,1952,https://www.ozdilek.com.tr
+Kiler Market,Kiler Holding,Kiler Holding,,Türkiye,TR,🇹🇷,Süpermarket,,,,,1992,https://www.kiler.com.tr
+Seç Market,Seç Market,Seç Market,,Türkiye,TR,🇹🇷,Süpermarket,,,,,2005,https://www.secmarket.com.tr
+Hakmar,Hakmar,Hakmar,,Türkiye,TR,🇹🇷,Süpermarket,,,,,1982,https://www.hakmar.com.tr
+Uyum Market,Uyum Market,Uyum Market,,Türkiye,TR,🇹🇷,Süpermarket,,,,,2003,https://www.uyummarket.com.tr
+Migros Jet,Migros Ticaret,Migros Ticaret,,Türkiye,TR,🇹🇷,Süpermarket,,,,,,https://www.migroskuryem.com.tr
+Hepsijet,Hepsiburada,Hepsiburada,,Türkiye,TR,🇹🇷,Lojistik,,,,,2019,https://www.hepsiburada.com
+Tarım Kredi Market,Tarım Kredi Kooperatifleri,Tarım Kredi Kooperatifleri,,Türkiye,TR,🇹🇷,Süpermarket,,,,,1863,https://www.tarimkredi.org.tr
+HomeWork,HomeWork,HomeWork,,Türkiye,TR,🇹🇷,Ev & Yaşam,,,,,2009,https://www.homework.com.tr
+Kocataş,Kocataş Holding,Kocataş Holding,,Türkiye,TR,🇹🇷,Ev & Yaşam,,,,,,https://www.kocatas.com.tr
+Louis Vuitton TR,LVMH,LVMH,,Fransa,FR,🇫🇷,Moda,,,,,1854,https://www.louisvuitton.com
+Dior TR,LVMH,LVMH,,Fransa,FR,🇫🇷,Moda,,,,,1946,https://www.dior.com
+Bulgari TR,LVMH,LVMH,,İtalya,IT,🇮🇹,Moda,,,,,1884,https://www.bulgari.com
+Givenchy TR,LVMH,LVMH,,Fransa,FR,🇫🇷,Moda,,,,,1952,https://www.givenchy.com
+TAG Heuer TR,LVMH,LVMH,,İsviçre,CH,🇨🇭,Moda,,,,,1860,https://www.tagheuer.com
+Gucci TR,Kering S.A.,Kering S.A.,,İtalya,IT,🇮🇹,Moda,,,,,1921,https://www.gucci.com
+Saint Laurent TR,Kering S.A.,Kering S.A.,,Fransa,FR,🇫🇷,Moda,,,,,1961,https://www.ysl.com
+Balenciaga TR,Kering S.A.,Kering S.A.,,Fransa,FR,🇫🇷,Moda,,,,,1917,https://www.balenciaga.com
+Bottega Veneta TR,Kering S.A.,Kering S.A.,,İtalya,IT,🇮🇹,Moda,,,,,1966,https://www.bottegaveneta.com
+Türkiye Finans,Saudi National Bank,Saudi National Bank,,SA,SA,,Bankacılık,,,,4000,2005,https://www.turkiyefinans.com.tr
+Odeabank,Bank Audi SAL,Bank Audi SAL,,LB,LB,,Bankacılık,,,,,2012,https://www.odeabank.com.tr
+Papara,Papara A.Ş.,Papara A.Ş.,,Türkiye,TR,🇹🇷,Finans,,,,1500,2016,https://www.papara.com
+İyzico,PayU Group (Naspers),PayU Group (Naspers),Türk ödeme altyapısı şirketi; Hollanda merkezli Naspers (PayU) tarafından satın alınmıştır.,Türkiye,TR,🇹🇷,Finans,,,,,2013,https://www.iyzico.com
+BTCTurk,BTCTurk A.Ş.,BTCTurk A.Ş.,,Türkiye,TR,🇹🇷,Finans,,,,400,2013,https://www.btcturk.com
+Paribu,Paribu A.Ş.,Paribu A.Ş.,,Türkiye,TR,🇹🇷,Finans,,,,500,2017,https://www.paribu.com
+Sipay,Sipay Elektronik Para,Sipay Elektronik Para,,Türkiye,TR,🇹🇷,Finans,,,,,2019,https://www.sipay.com.tr
+Param,Param Finansal Hizmetler,Param Finansal Hizmetler,,Türkiye,TR,🇹🇷,Finans,,,,,2020,https://www.param.com.tr
+İş Yatırım,İş Bankası,İş Bankası,,Türkiye,TR,🇹🇷,Finans,,,,,1996,https://www.isyatirim.com.tr
+Yapı Kredi Yatırım,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Finans,,/logo/kocholding.svg,,,1991,https://www.ykyatirim.com.tr
+Garanti BBVA Yatırım,BBVA,BBVA,,İspanya,ES,🇪🇸,Finans,,,,,1990,https://www.garantibbvayatirim.com.tr
+Wizz Air TR,Wizz Air Holdings,Wizz Air Holdings,,HU,HU,,Havacılık,,,,7000,2003,https://www.wizzair.com
+Air Arabia TR,Air Arabia,Air Arabia,,BAE,AE,🇦🇪,Havacılık,,,,,2003,https://www.airarabia.com
+Ryanair TR,Ryanair DAC,Ryanair DAC,,IE,IE,,Havacılık,,,,21000,1984,https://www.ryanair.com
+Turkish Technic,Türk Hava Yolları,Türk Hava Yolları,,Türkiye,TR,🇹🇷,Teknoloji,,/logo/thy.svg,,,2006,https://www.turkishtechnic.com
+Atlas Global,Atlas Global,Atlas Global,Türk charter havayolu; 2020 yılında iflas ederek faaliyetlerine son vermiştir.,Türkiye,TR,🇹🇷,Havacılık,,,,,2001,https://www.atlasglb.com
+Tailwind Airlines,Tailwind Airlines,Tailwind Airlines,,Türkiye,TR,🇹🇷,Havacılık,,,,,2015,https://www.tailwindair.com
+ULS Airlines Cargo,ULS Airlines,ULS Airlines,,Türkiye,TR,🇹🇷,Lojistik,,,,,2007,https://www.ulsairlines.com
+Zorlu Enerji,Zorlu Holding,Zorlu Holding,,Türkiye,TR,🇹🇷,Enerji,,/logo/zorluholding.svg,,3000,1993,https://www.zorluenerji.com.tr
+Çalık Enerji,Çalık Holding,Çalık Holding,,Türkiye,TR,🇹🇷,Enerji,,,,,1999,https://www.calikenerji.com
+Sanko Enerji,Sanko Holding,Sanko Holding,,Türkiye,TR,🇹🇷,Enerji,,,,,2007,https://www.sankoenerji.com.tr
+Enel TR,Enel S.p.A.,Enel S.p.A.,,İtalya,IT,🇮🇹,Enerji,,,,65000,1962,https://www.enel.com
+Enerya,Sabancı Holding,Sabancı Holding,,Türkiye,TR,🇹🇷,Enerji,,/logo/sabanci.svg,,,2014,https://www.enerya.com.tr
+Ngen Enerji,Global Yatırım Holding,Global Yatırım Holding,,Türkiye,TR,🇹🇷,Enerji,,,,,2017,https://www.ngen.com.tr
+Limak Enerji,Limak Holding,Limak Holding,,Türkiye,TR,🇹🇷,Enerji,,,,,2011,https://www.limakenerji.com
+Kolin Enerji,Kolin Grubu,Kolin Grubu,,Türkiye,TR,🇹🇷,Enerji,,,,,2006,https://www.kolinenerji.com
+Naturelgaz,Naturelgaz,Naturelgaz,,Türkiye,TR,🇹🇷,Enerji,,,,,2003,https://www.naturelgaz.com.tr
+Brent Doğalgaz,Brent Enerji,Brent Enerji,,Türkiye,TR,🇹🇷,Enerji,,,,,,https://www.brentenerji.com.tr
+EWE TR,EWE AG,EWE AG,,Almanya,DE,🇩🇪,Enerji,,,,,1929,https://www.ewe.com.tr
+Sırma,Sırma Su A.Ş.,Sırma Su A.Ş.,,Türkiye,TR,🇹🇷,İçecek,,,,,1997,https://www.sirma.com.tr
+Erikli,Nestlé S.A.,Nestlé S.A.,Türk kaynak suyu markası; Nestlé tarafından satın alınmıştır.,İsviçre,CH,🇨🇭,İçecek,,/logo/nestle.svg,,,1997,https://www.erikli.com.tr
+Hayat Su,Hayat Holding,Hayat Holding,,Türkiye,TR,🇹🇷,İçecek,,,,,2000,https://www.hayatsu.com.tr
+Damla Su,Damla Su,Damla Su,,Türkiye,TR,🇹🇷,İçecek,,,,,1997,https://www.damla.com.tr
+Pınar Su,Yaşar Holding,Yaşar Holding,,Türkiye,TR,🇹🇷,İçecek,,,,,1985,https://www.pinar.com.tr
+Çamlıca,Çamlıca İçecek,Çamlıca İçecek,,Türkiye,TR,🇹🇷,İçecek,,,,,1993,https://www.camlicar.com.tr
+Kavaklıdere,Kavaklıdere Şaraplıkları,Kavaklıdere Şaraplıkları,,Türkiye,TR,🇹🇷,İçecek,,,,,1929,https://www.kavaklidere.com
+Doluca,Doluca,Doluca,,Türkiye,TR,🇹🇷,İçecek,,,,,1926,https://www.doluca.com
+Tikveşli,Mey İçki (Diageo),Mey İçki (Diageo),Türkiye'nin köklü şarap markalarından biri; Mey İçki (Diageo) bünyesindedir.,Türkiye,TR,🇹🇷,İçecek,,,,,1925,https://www.tikvesli.com.tr
+Kayra,Mey İçki (Diageo),Mey İçki (Diageo),Mey İçki bünyesindeki premium şarap markası; Diageo'ya aittir.,Türkiye,TR,🇹🇷,İçecek,,,,,,
+Vinkara,Vinkara Bağcılık,Vinkara Bağcılık,,Türkiye,TR,🇹🇷,İçecek,,,,,2005,https://www.vinkara.com
+Pamukkale,Pamukkale Şarap,Pamukkale Şarap,,Türkiye,TR,🇹🇷,İçecek,,,,,1962,https://www.pamukkalesarap.com
+Jacobs TR,JDE Peet's,JDE Peet's,,Hollanda,NL,🇳🇱,İçecek,,,,22000,1895,https://www.jacobscoffee.com
+Lavazza TR,Lavazza Group,Lavazza Group,,İtalya,IT,🇮🇹,Kahve & Cafe,,,,5000,1895,https://www.lavazza.com.tr
+Tchibo TR,Tchibo GmbH,Tchibo GmbH,,Almanya,DE,🇩🇪,Kahve & Cafe,,,,12000,1949,https://www.tchibo.com.tr
+Selamlique,Selamlique,Selamlique,,Türkiye,TR,🇹🇷,Kahve & Cafe,,,,,2011,https://www.selamlique.com
+Arçelik Kahve,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Kahve & Cafe,,/logo/kocholding.svg,,,,
+Lindt TR,Lindt & Sprüngli,Lindt & Sprüngli,,İsviçre,CH,🇨🇭,Gıda,,,,15000,1845,https://www.lindt.com.tr
+Toffy's,ETi Bolu,ETi Bolu,,Türkiye,TR,🇹🇷,Gıda,,,,,,
+Albeni,Ülker / Yıldız,Ülker / Yıldız,,Türkiye,TR,🇹🇷,Gıda,,,,,,
+Dankek,Yıldız Holding,Yıldız Holding,,Türkiye,TR,🇹🇷,Gıda,,,,,1990,https://www.dankek.com.tr
+Çizmeci,Çizmeci,Çizmeci,,Türkiye,TR,🇹🇷,Gıda,,,,,1970,https://www.cizmeci.com.tr
+Pedigree,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,/logo/mars.svg,,,,
+Whiskas,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,/logo/mars.svg,,,,
+Sheba,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,/logo/mars.svg,,,,
+Uncle Ben's,Mars Inc.,Mars Inc.,,Amerika,US,🇺🇸,Gıda,,/logo/mars.svg,,,,
+Dolmio,Mars Inc.,Mars Inc.,,AU,AU,,Gıda,,/logo/mars.svg,,,,
+Purina,Nestlé S.A.,Nestlé S.A.,,Amerika,US,🇺🇸,Gıda,,/logo/nestle.svg,,,,
+Felix,Nestlé S.A.,Nestlé S.A.,,İsviçre,CH,🇨🇭,Gıda,,/logo/nestle.svg,,,,
+Friskies,Nestlé S.A.,Nestlé S.A.,,Amerika,US,🇺🇸,Gıda,,/logo/nestle.svg,,,,
+Bayer TR,Bayer AG,Bayer AG,,Almanya,DE,🇩🇪,İlaç,,,,100000,1863,https://www.bayer.com.tr
+Novartis TR,Novartis AG,Novartis AG,,İsviçre,CH,🇨🇭,İlaç,,,,108000,1996,https://www.novartis.com.tr
+Pfizer TR,Pfizer Inc.,Pfizer Inc.,,Amerika,US,🇺🇸,İlaç,,,,83000,1849,https://www.pfizer.com.tr
+Sanofi TR,Sanofi S.A.,Sanofi S.A.,,Fransa,FR,🇫🇷,İlaç,,,,91000,1973,https://www.sanofi.com.tr
+Roche TR,Roche AG,Roche AG,,İsviçre,CH,🇨🇭,İlaç,,,,100000,1896,https://www.roche.com.tr
+AstraZeneca TR,AstraZeneca PLC,AstraZeneca PLC,,İngiltere,GB,🇬🇧,İlaç,,,,83000,1999,https://www.astrazeneca.com.tr
+Sandoz TR,Sandoz AG,Sandoz AG,,İsviçre,CH,🇨🇭,İlaç,,,,,1886,https://www.sandoz.com.tr
+Deva Holding,Deva Holding,Deva Holding,,Türkiye,TR,🇹🇷,İlaç,,,,4000,1958,https://www.deva.com.tr
+Sanovel,Sanovel İlaç,Sanovel İlaç,,Türkiye,TR,🇹🇷,İlaç,,,,,1968,https://www.sanovel.com.tr
+İE Ulagay,İE Ulagay,İE Ulagay,,Türkiye,TR,🇹🇷,İlaç,,,,,1948,https://www.ieulagay.com.tr
+Piyale,Piyale A.Ş.,Piyale A.Ş.,,Türkiye,TR,🇹🇷,Gıda,,,,,1939,https://www.piyale.com.tr
+Filiz Makarna,Yıldız Holding,Yıldız Holding,,Türkiye,TR,🇹🇷,Gıda,,,,,1977,https://www.filizmakarna.com.tr
+Sunar,Yıldız Holding,Yıldız Holding,,Türkiye,TR,🇹🇷,Gıda,,,,,1980,https://www.sunar.com.tr
+Barilla TR,Barilla Group,Barilla Group,,İtalya,IT,🇮🇹,Gıda,,,,9000,1877,https://www.barilla.com
+Pringles,Kellanova,Kellanova,,Amerika,US,🇺🇸,Gıda,,,,,1968,https://www.pringles.com
+Biscolata,Şölen Çikolata,Şölen Çikolata,,Türkiye,TR,🇹🇷,Gıda,,,,,2001,https://www.biscolata.com
+Tukaş,Koç Holding,Koç Holding,,Türkiye,TR,🇹🇷,Gıda,,/logo/kocholding.svg,,,1960,https://www.tukas.com.tr
+Superfresh,Yıldız Holding,Yıldız Holding,,Türkiye,TR,🇹🇷,Gıda,,,,,1998,https://www.superfresh.com.tr
+Algida Carte D'Or,Unilever PLC,Unilever PLC,,Fransa,FR,🇫🇷,Gıda,,/logo/unilever.svg,,,,

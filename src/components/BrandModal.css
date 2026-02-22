@@ -1,231 +1,327 @@
+/* === Backdrop === */
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 99;
-  animation: fadeIn 0.3s ease;
+  padding: 16px;
+  animation: fadeIn 0.2s ease;
 }
 
+/* === Modal Kart === */
 .modal {
-  background-color: #1c1c1c;
+  background-color: #181818;
   color: #eee;
-  padding: 24px;
-  border-radius: 14px;
+  border-radius: 16px;
   width: 90%;
-  max-width: 420px;
-  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.7);
+  max-width: 440px;
+  max-height: 88vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
   position: relative;
-  animation: slideUp 0.25s ease;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: slideUp 0.22s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+/* === Kapat Butonu === */
 .modal-close {
   position: absolute;
-  top: 10px;
+  top: 12px;
   right: 14px;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.06);
   border: none;
-  color: #888;
-  font-size: 22px;
+  color: #999;
+  font-size: 18px;
+  line-height: 1;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
   cursor: pointer;
-  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, color 0.2s;
+  z-index: 1;
 }
 .modal-close:hover {
+  background: rgba(255, 255, 255, 0.12);
   color: #fff;
 }
 
+/* === Header === */
 .modal-header {
   display: flex;
   align-items: center;
-  gap: 16px;
-  margin-bottom: 16px;
+  gap: 14px;
+  padding: 20px 20px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
 }
 
+/* === Marka Logosu === */
+.brand-logo {
+  flex-shrink: 0;
+}
 .brand-logo img {
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
-  border-radius: 8px;
-  background-color: #222;
+  border-radius: 12px;
+  background-color: #fff;
   padding: 6px;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  display: block;
 }
 
+/* === Logo Placeholder (harf avatar) === */
+.logo-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+.logo-avatar-sm {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+.logo-avatar-xs {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+/* === Başlık Metni === */
+.brand-header-text {
+  flex: 1;
+  min-width: 0;
+}
 .brand-header-text h2 {
-  font-size: 1.4rem;
-  margin: 0;
-  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 0 0 5px;
+  font-weight: 700;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
 }
-
 .brand-company {
-  font-size: 0.95rem;
-  margin-top: 4px;
-  color: #aaa;
+  font-size: 0.88rem;
+  margin: 0;
+  color: #888;
 }
-
 .company-link {
   color: #ffdd57;
   cursor: pointer;
+  font-weight: 500;
   transition: opacity 0.2s;
 }
 .company-link:hover {
-  opacity: 0.8;
+  opacity: 0.75;
 }
 
-.modal-content {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top: 10px;
-  padding-top: 10px;
+/* === Bilgi Chipler === */
+.modal-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
-
-.modal-row {
-  margin: 8px 0;
-  font-size: 0.95rem;
-  line-height: 1.4;
+.modal-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 20px;
+  padding: 4px 10px;
+  font-size: 0.78rem;
+  color: #bbb;
 }
-
-.modal-row a {
+.modal-chip a {
   color: #4cb0ff;
   text-decoration: none;
 }
-.modal-row a:hover {
+.modal-chip a:hover {
   text-decoration: underline;
 }
-
-.modal-footer {
-  margin-top: 16px;
-  padding-top: 10px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  text-align: center;
-  font-size: 0.85rem;
-  color: #888;
+.modal-chip-category {
+  background: rgba(78, 161, 255, 0.1);
+  border-color: rgba(78, 161, 255, 0.2);
+  color: #5db8ff;
 }
 
-/* Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+/* === Açıklama === */
+.modal-desc {
+  padding: 12px 20px;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #aaa;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-@keyframes slideUp {
-  from {
-    transform: translateY(12px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-/* Mevcut kodlarının altına ekle */
-
-/* === Chain (Zincir) Görünümü === */
-.chain-container {
-  margin-top: 12px;
-  background-color: #161616;
-  border: 1px solid #333;
+/* === Not Alanı === */
+.modal-note {
+  margin: 0 20px 4px;
+  padding: 10px 14px;
+  background: rgba(76, 176, 255, 0.07);
+  border: 1px solid rgba(76, 176, 255, 0.18);
   border-radius: 10px;
-  padding: 12px;
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: #aac8e8;
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.modal-note-icon {
+  flex-shrink: 0;
+  margin-top: 1px;
 }
 
+/* === Sahiplik Zinciri === */
+.chain-container {
+  margin: 16px 20px;
+  background: #111;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  padding: 14px;
+}
 .chain-title {
-  margin: 0 0 10px 0;
-  font-size: 0.85rem;
-  color: #888;
+  margin: 0 0 12px;
+  font-size: 0.72rem;
+  color: #555;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
+  font-weight: 700;
 }
-
 .chain-list {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
 }
-
 .chain-item {
   display: flex;
   flex-direction: column;
 }
-
 .chain-arrow {
-  color: #555;
-  font-size: 14px;
-  margin-left: 12px; /* Girinti ayarı */
+  color: #333;
+  font-size: 13px;
+  margin-left: 16px;
   margin-bottom: 2px;
   line-height: 1;
 }
-
 .chain-box {
   display: flex;
   align-items: center;
-  background-color: #222;
-  padding: 6px 10px;
-  border-radius: 6px;
+  gap: 8px;
+  background: #1b1b1b;
+  padding: 7px 10px;
+  border-radius: 8px;
   border: 1px solid transparent;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: background 0.15s, border-color 0.15s;
   width: fit-content;
+  min-width: 150px;
 }
-
-/* Her adımda biraz daha içeri girinti yapalım */
 .chain-item:nth-child(1) .chain-box { margin-left: 0; }
-.chain-item:nth-child(2) .chain-box { margin-left: 12px; }
-.chain-item:nth-child(3) .chain-box { margin-left: 24px; }
-.chain-item:nth-child(4) .chain-box { margin-left: 36px; }
-
+.chain-item:nth-child(2) .chain-box { margin-left: 14px; }
+.chain-item:nth-child(3) .chain-box { margin-left: 28px; }
+.chain-item:nth-child(4) .chain-box { margin-left: 42px; }
 .chain-box:hover {
-  background-color: #2a2a2a;
-  border-color: #444;
+  background: #242424;
+  border-color: rgba(255, 255, 255, 0.1);
 }
-
 .chain-box img {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   border-radius: 4px;
   object-fit: contain;
-  margin-right: 8px;
-  background: #fff; /* Logolar koyu temada görünsün diye */
+  background: #fff;
   padding: 1px;
+  flex-shrink: 0;
 }
-
 .chain-info {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 7px;
 }
-
 .chain-name {
-  font-size: 0.9rem;
-  color: #eee;
+  font-size: 0.86rem;
+  color: #ddd;
   font-weight: 500;
 }
-
-/* Nihai Sahip Stili */
 .chain-box.ultimate-owner {
-  background-color: rgba(255, 68, 68, 0.1); /* Hafif kırmızımsı */
-  border-color: rgba(255, 68, 68, 0.3);
-  width: 100%; /* En sonuncusu tam genişlik olsun */
+  background: rgba(255, 160, 50, 0.07);
+  border-color: rgba(255, 160, 50, 0.22);
+  width: 100%;
 }
-
 .chain-box.ultimate-owner .chain-name {
-  color: #ff8888;
+  color: #ffb347;
   font-weight: 700;
 }
-
 .ultimate-tag {
   font-size: 9px;
-  background-color: #ff4444;
-  color: white;
-  padding: 2px 5px;
+  background: #ffa032;
+  color: #000;
+  padding: 2px 6px;
   border-radius: 4px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+/* === Footer === */
+.modal-footer {
+  padding: 12px 20px 16px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #444;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: 8px;
+}
+
+/* === Animasyonlar === */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { transform: translateY(14px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* === Mobil === */
+@media (max-width: 480px) {
+  .modal {
+    width: 100%;
+    max-height: 92vh;
+    border-radius: 14px;
+  }
+  .brand-header-text h2 {
+    font-size: 1.15rem;
+  }
 }

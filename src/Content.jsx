@@ -1,21 +1,32 @@
 import { useState, useMemo, useEffect, lazy, Suspense } from "react";
 import Input from "./Input";
 import DevBadge from "./components/DevBadge";
-import Papa from "papaparse";
+import useBrandsData, { normalize } from "./hooks/useBrandsData";
 
 const BrandModal = lazy(() => import("./components/BrandModal"));
 const CompanyModal = lazy(() => import("./components/CompanyModal"));
 
-// Normalize fonksiyonunu export edelim veya modal içinde tekrar tanımlayalım. 
-// Şimdilik burada dursun, aşağıda logic içinde kullanacağız.
-function normalize(s) {
-  return (s || "")
-    .toString()
-    .toLowerCase()
-    .normalize("NFKD")
-    .replace(/[^\p{L}\p{N}\s.-]/gu, "")
-    .replace(/\s+/g, " ")
-    .trim();
+const AVATAR_COLORS = ["#3b82f6","#8b5cf6","#ec4899","#f97316","#10b981","#14b8a6","#f59e0b","#6366f1"];
+function avatarBg(name) {
+  return AVATAR_COLORS[(name || "?").charCodeAt(0) % AVATAR_COLORS.length];
+}
+function SuggAvatar({ src, name }) {
+  const [err, setErr] = useState(false);
+  if (src && !err) {
+    return (
+      <img
+        src={src}
+        alt={name}
+        className="sugg-logo"
+        onError={() => setErr(true)}
+      />
+    );
+  }
+  return (
+    <div className="sugg-avatar" style={{ background: avatarBg(name) }}>
+      {(name || "?")[0].toUpperCase()}
+    </div>
+  );
 }
 
 function scoreMatch(query, candidate) {
@@ -38,41 +49,6 @@ function useDebounce(value, delay = 300) {
     return () => clearTimeout(handler);
   }, [value, delay]);
   return debounced;
-}
-
-function useBrandsData() {
-  const [brands, setBrands] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const SHEET_URL =
-      "https://docs.google.com/spreadsheets/d/18BH8LXuxivmk-IRyu_-S-CRVHWMqGcKjnodM8Jc1JTE/gviz/tq?tqx=out:csv";
-
-    fetch(SHEET_URL)
-      .then((res) => res.text())
-      .then((csvText) => {
-        const parsed = Papa.parse(csvText, { header: true }).data;
-        const normalized = parsed
-          .filter((b) => b.brand && b.company)
-          .map((b) => ({
-            ...b,
-            mcapRank: Number(b.mcapRank) || null,
-            employees: Number(b.employees) || null,
-            founded: Number(b.founded) || null,
-            _normBrand: normalize(b.brand),
-            _normCompany: normalize(b.company),
-          }));
-        setBrands(normalized);
-      })
-      .catch((err) => {
-        console.error("Veri çekilirken hata:", err);
-        setError(err);
-      })
-      .finally(() => setLoading(false));
-  }, []);
-
-  return { brands, loading, error };
 }
 
 function useBrandSearch(query, brands) {
@@ -118,13 +94,6 @@ export default function Content() {
       </div>
     );
 
-  if (error)
-    return (
-      <div className="card">
-        <p>Veri alınamadı 😞</p>
-      </div>
-    );
-
   return (
     <div className="card">
       <header>
@@ -145,24 +114,13 @@ export default function Content() {
   <div className="suggestions">
     {results.map((r) => (
       <button key={r.brand + r.company} onClick={() => handleSelect(r)}>
-        
-        {/* SOL TARAF: Marka Adı */}
         <div className="brand-info">
+          <SuggAvatar src={r.logo} name={r.brand} />
           <div className="brand-name">{r.brand}</div>
         </div>
-
-        {/* SAĞ TARAF: Şirket Adı ve Logosu */}
         <div className="company-details">
           <div className="company-name">{r.company}</div>
-          
-          {/* Şirket Logosunu (r.companyLogom) ekle */}
-          {r.companyLogo && (
-            <img 
-              src={r.companyLogo} // Logo dosya yolu (Örn: /logo/volkswagen.svg)
-              alt={`${r.company} Logo`}
-              className="company-logo-small" // Boyutlandırma için CSS sınıfı
-            />
-          )}
+          <SuggAvatar src={r.companyLogo} name={r.company} />
         </div>
       </button>
     ))}
@@ -170,7 +128,12 @@ export default function Content() {
 )}
       </div>
 
-      <p style={{ textAlign: "center", color: "#777", fontSize: "0.8rem", marginTop: "1rem" }}>
+      {error && (
+        <p style={{ textAlign: "center", color: "#c07000", fontSize: "0.78rem", marginTop: "0.5rem" }}>
+          Canlı veriye ulaşılamadı, yerel veri gösteriliyor.
+        </p>
+      )}
+      <p style={{ textAlign: "center", color: "#777", fontSize: "0.8rem", marginTop: "0.5rem" }}>
         Yeni markalar eklenmeye devam ediyor. Hatalar olabilir 🙂
       </p>
 
@@ -194,6 +157,10 @@ export default function Content() {
             company={company}
             brands={brands}
             onClose={() => setCompany(null)}
+            onBrandOpen={(brand) => {
+              setCompany(null);
+              setSelected(brand);
+            }}
           />
         )}
       </Suspense>
